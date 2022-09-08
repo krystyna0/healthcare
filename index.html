@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -45,19 +45,37 @@
         </nav>
     </div>
 </header>
-<section class="w-100 main-banner">
-    <div class="content">
+
+
+<section class="main-banner w-100">
+    <div class="container">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 main-banner-text">
-                    <h1>Find And Search
-                        Your Suitable Doctor’s</h1>
+                <div class="col-12 col-md-12 col-lg-7 main-banner-text">
+                    <h2>Find And Search Your</h2>
+                    <h1>Suitable Doctor’s</h1>
                     <p>Join us and take care of yourself and your family with health services that will make you feel
                         confident and safe in your daily life.</p>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Find your doctor"
+                               aria-label="Search">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>New York, USA</option>
+                            <option value="1">Madrid, Spain</option>
+                            <option value="2">Paris, France</option>
+                            <option value="3">Kyiv, Ukraine</option>
+                        </select>
+                        <button class="btn" type="submit"><img src="images/btn-search.png"></button>
+                    </form>
                 </div>
-                <div class="col-md-6 doctor-main-banner">
+                <div class="col-lg-4 doctor-main-banner">
                     <img class="doctor-bg" src="images/main-banner-doctor.png" alt="doctor-mb">
                     <img class="circle-bg" src="images/main-banner-circle.png" alt="circle-bg">
+                    <img class="wu-icon" src="images/wu-icon.svg" alt="icon">
+                    <img class="pr-icon" src="images/patient-review.svg">
+                    <img class="happy-icon" src="images/happy-patients.svg">
+                    <img class="chat-icon" src="images/chat-icon.svg">
+                    <img class="phone-icon" src="images/telephone-icon.svg">
                 </div>
             </div>
         </div>
@@ -68,25 +86,25 @@
     <div class="container">
         <div class="row">
             <div class="col-12 steps-header">
-                <h2>
+                <h3>
                     3 Easy Steps and Get Your Solution
-                </h2>
+                </h3>
             </div>
             <div class="col-4 steps-item">
-                <img class="steps-circle-1" src="images/steps-circle-1.svg">
+                <img class="steps-circle" src="images/steps-circle-1.svg">
                 <img class="steps-icon-1" src="images/steps-icon-1.png">
                 <h3>Find best doctor’s</h3>
                 <p>Find your doctor easily with a minimum of effort. We've kept everything organised for you.</p>
             </div>
             <div class="col-4 steps-item">
-                <img class="steps-circle-2" src="images/steps-circle-2.svg">
+                <img class="steps-circle" src="images/steps-circle-2.svg">
                 <img class="steps-icon-2" src="images/steps-icon-2.png">
                 <h3>Get Appointment</h3>
                 <p>Ask for an appointment of the doctor quickly with almost a single click. We take care of the
                     rest.</p>
             </div>
             <div class="col-4 steps-item">
-                <img class="steps-circle-3" src="images/steps-circle-3.svg">
+                <img class="steps-circle" src="images/steps-circle-3.svg">
                 <img class="steps-icon-3" src="images/steps-icon-3.png">
                 <h3>Happy Consultations</h3>
                 <p>Do consultations and take the service based on your appointment. Get back to good health</p>
@@ -96,16 +114,45 @@
 </section>
 
 <section class="best-service">
-    <div class="content">
-        <div class="container">
+    <div class="container">
             <div class="row">
-                <div class="col-md-6 doctor-banner">
-                    <img class="doctor-bg" src="images/best-service-doctor.png">
-                    <img class="doctor-bg-circle" src="images/best-servise-back-doctor.svg">
-                    <img class="shape-bg" src="images/best-service-shape.svg">
-                    <img class="elips-bg" src="images/best-service-elips.svg">
+                <div class="doctor-review">
+                    <img class="heart-img" src="images/heart.svg" alt="heart">
+                    <div class="first-review d-flex justify-content-end">
+                        <img src="images/doctor-review.png" alt="doctor">
+                        <div class="review-text">
+                            <h5>Dr. Khalid Abbed</h5>
+                            <p>Carddiologist (MBBS)<span>5.0</span></p>
+                        </div>
+                    </div>
+                    <div class="benefits d-flex justify-content-between m-auto">
+                        <div class="review-text">
+                            <p>Experience</p>
+                            <span>5 Years</span>
+                        </div>
+                        <div class="review-text">
+                            <p>Patients</p>
+                            <span>3.5K</span>
+                        </div>
+                        <div class="review-text">
+                            <p>Reviews</p>
+                            <span>2.5K</span>
+                        </div>
+                    </div>
+                    <p class="clinic">Mayo Clinic Hospital</p>
                 </div>
-                <div class="col-12 col-md-6 main-banner-text">
+
+                <div class="col-md-6">
+                    <div class="doctor-banner">
+                        <img class="doctor-bg" src="images/best-service-doctor.png">
+                        <img class="doctor-bg-circle" src="images/best-servise-back-doctor.svg">
+                        <img class="shape-bg" src="images/best-service-shape.svg">
+                        <img class="elips-bg" src="images/best-service-elips.svg">
+                        <img class="user-feedback" src="images/user-feedback.svg" alt="user-feedback">
+                </div>
+                </div>
+                <div class="col-md-6 justify-content-end d-flex">
+                    <div class="main-banner-text">
                     <h2>Best quality service with our experience
                         doctors</h2>
                     <p>With our top doctors, we are able to provide best medical services above average We have highly
@@ -115,56 +162,57 @@
                         <li>Consultation our top specialists</li>
                         <li>Doctors are available 24/7</li>
                     </ul>
-                    <a>
+                    <a href="#">
                         Explore specialists
                     </a>
+                    </div>
                 </div>
             </div>
-        </div>
     </div>
 </section>
 
 
 <section class="our-servise">
     <div class="container text-center">
-                <h3>Our Service</h3>
-                <p>Our doctors have high qualified skills and are guaranteed to help you recover from your disease.</p>
+        <h3>Our Service</h3>
+        <p>Our doctors have high qualified skills and are guaranteed to help you recover from your disease.</p>
+    </div>
+    <div class="container">
+    <div class="owl-carousel slide-one">
+        <div class="item-1">
+            <img src="images/carousel-item-1.svg" alt="img">
+            <h5>Cardiology</h5>
+            <p>Our cardiologists are skilled at the diagnosing and treating diseases
+                of the cardiovascular system.</p>
         </div>
-        <div class="owl-carousel">
-                <div class="item-1">
-                    <img src="images/carousel-item-1.svg" alt="img">
-                    <h5>Cardiology</h5>
-                    <p>Our cardiologists are skilled at the diagnosing and treating diseases
-                        of the cardiovascular system.</p>
-                </div>
-                <div class="item-2">
-                    <img src="images/carousel-item-2.svg" alt="img">
-                    <h5>Pulmonology</h5>
-                    <p>Our Pulmonologist are skilled at diagnosing treating diseases of the Pulmonology system.</p>
-                </div>
-                <div class="item-3">
-                    <img src="images/carousel-item-3.svg" alt="img">
-                    <h5>Medicine</h5>
-                    <p>Our medcine doctor are skilled at diagnosing treating diseases of the latest medicne system.</p>
-                </div>
+        <div class="item-2">
+            <img src="images/carousel-item-2.svg" alt="img">
+            <h5>Pulmonology</h5>
+            <p>Our Pulmonologist are skilled at diagnosing treating diseases of the Pulmonology system.</p>
+        </div>
+        <div class="item-3">
+            <img src="images/carousel-item-3.png" alt="img">
+            <h5>Medicine</h5>
+            <p>Our medcine doctor are skilled at diagnosing treating diseases of the latest medicne system.</p>
+        </div>
 
-            <div class="item-1">
-                <img src="images/carousel-item-1.svg" alt="img">
-                <h5>Cardiology</h5>
-                <p>Our cardiologists are skilled at the diagnosing and treating diseases
-                    of the cardiovascular system.</p>
-            </div>
-            <div class="item-2">
-                <img src="images/carousel-item-2.svg" alt="img">
-                <h5>Pulmonology</h5>
-                <p>Our Pulmonologist are skilled at diagnosing treating diseases of the Pulmonology system.</p>
-            </div>
-            <div class="item-3">
-                <img src="images/carousel-item-3.svg" alt="img">
-                <h5>Medicine</h5>
-                <p>Our medcine doctor are skilled at diagnosing treating diseases of the latest medicne system.</p>
-            </div>
+        <div class="item-1">
+            <img src="images/carousel-item-1.svg" alt="img">
+            <h5>Cardiology</h5>
+            <p>Our cardiologists are skilled at the diagnosing and treating diseases
+                of the cardiovascular system.</p>
         </div>
+        <div class="item-2">
+            <img src="images/carousel-item-2.svg" alt="img">
+            <h5>Pulmonology</h5>
+            <p>Our Pulmonologist are skilled at diagnosing treating diseases of the Pulmonology system.</p>
+        </div>
+        <div class="item-3">
+            <img src="images/carousel-item-3.png" alt="img">
+            <h5>Medicine</h5>
+            <p>Our medcine doctor are skilled at diagnosing treating diseases of the latest medicne system.</p>
+        </div>
+    </div>
     </div>
 </section>
 
@@ -237,57 +285,142 @@
 
 
 <section class="mobile-apps">
-
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="apps-banner d-flex justify-content-center">
+                    <img class="apps-bg" src="images/apps-bg.png">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 justify-content-end d-flex">
+                    <div class="main-banner-text">
+                    <h3>Mobile apps are available
+                        Get HealthCare for free!
+                    </h3>
+                    <p>Get on-demand access to a doctor on your phone with the free HealthCare mobile app. Download and
+                        register on our app for free and feel safe for all your family</p>
+                    <a href="#">
+                       <img src="images/google-store-icon.svg" alt="google-play-store">
+                    </a>
+                    <a href="#">
+                        <img src="images/app-store-icon.svg" alt="app-store">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 </section>
 
 
 <section class="clients-opinion">
-
+    <div class="container text-center">
+        <h4>Look our Clients have to say about us</h4>
+    </div>
+    <div class="container">
+    <div class="owl-carousel slide-two">
+        <div class="item-1">
+            <img class="client-photo-1" src="images/client-item-1.png" alt="img">
+            <img class="grade" src="images/stars.svg" alt="img">
+            <h5>Alan Zara dilan</h5>
+            <p>New York, America, USA</p>
+            <p>Telehealth is fueled by digital technologies and DocTime telemedicine app has brought a great revolution
+                in medical services specially an overpopulated country where virtual chamber can create at anywhere
+                thoughout country</p>
+        </div>
+        <div class="item-2">
+            <img class="client-photo-2" src="images/client-item-2.png" alt="img">
+            <img class="grade" src="images/stars.svg" alt="img">
+            <h5>Alex Maxwell</h5>
+            <p>San Francisco, USA</p>
+            <p>I visited my PCP for abdominal pain. My doctor told me that I need to see Gastroenterologist. Earlier I
+                used to call multiple offices to schedule an appointment that suites my time.</p>
+        </div>
+        <div class="item-3">
+            <img class="client-photo-3" src="images/client-item-3.png" alt="img">
+            <img class="grade" src="images/stars.svg" alt="img">
+            <h5>Dr. Tasnim zara</h5>
+            <p>Los Angeles, USA</p>
+            <p>HealthCare is enlightens my superpower each and every time...!
+                I find DocTime a brand-able telemedicine platform with virtual waiting room, video consultation,
+                e-prescription, beautifully planned user interface.
+                Thank you :)</p>
+        </div>
+    </div>
+    </div>
 </section>
 
 
 <section class="booking-appoinment ">
-
+    <div class="container">
+        <div class="row">
+            <div class="col-6 text">
+                <h3>
+                    It’s time change your life today
+                </h3>
+                <a href="#">
+                    Book an Appoinment
+                </a>
+            </div>
+            <div class="col-6 booking-appoinment-dr">
+                <img src="images/booking-appoinment-dr.png">
+            </div>
+        </div>
+    </div>
 </section>
 
 
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-5">
-                <a href="#">
-                    <img src="images/logo.svg">
-                </a>
-                <p></p>
-                <p></p>
-                <ul>
-                    <li><a href="#"><img></a></li>
-                    <li><a href="#"><img></a></li>
-                    <li><a href="#"><img></a></li>
-                    <li><a href="#"><img></a></li>
-                </ul>
+    <div class="container d-flex justify-content-between">
+        <div class="logo-info">
+            <a href="#">
+                <img src="images/logo.svg">
+            </a>
+            <p>Metairie, 3689 Bassel Street, LA, Louisiana</p>
+            <p>Contact us: 225-788-5489</p>
+            <div class="logo-sm">
+                <a href="#"><img src="images/logo-footer-fb.svg" alt="logo-fb"></a>
+                <a href="#"><img src="images/logo-footer-inst.svg" alt="logo-inst"></a>
+                <a href="#"><img src="images/logo-footer-tw.svg" alt="logo-tw"></a>
+                <a href="#"><img src="images/logo-footer-yt.svg" alt="logo-yt"></a>
             </div>
-            <div class="col-3">
-                <ul>
-                    <li>Category</li>
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Reviews</a></li>
-                    <li><a>Article</a></li>
-                </ul>
-                <ul>
-                    <li>About</li>
-                    <li><a>Partners</a></li>
-                    <li><a>Careers</a></li>
-                    <li><a>Press</a></li>
-                    <li><a>Community</a></li>
-                </ul>
-            </div>
-            <div class="col-4">
-                <h5>Subscribe newsletter</h5>
-                <p>Sign up for tips, new destinations, and exclusive promos.</p>
-            </div>
+        </div>
+        <div class="category">
+            <ul>
+                <li>Category</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Article</a></li>
+            </ul>
+        </div>
+        <div class="about">
+            <ul>
+                <li>About</li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+        <div class="subscribe">
+            <h5>Subscribe newsletter</h5>
+            <p>Sign up for tips, new destinations, and exclusive promos.</p>
+            <form>
+                <label for="footer-form"></label>
+                <input id="footer-form" type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <div class="container license-info d-flex justify-content-between">
+        <div class="rights">
+            © 2021 Healthcare - All rights reserved.
+        </div>
+        <div class="privacy d-flex justify-content-between">
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+            <a href="#">Terms</a>
         </div>
     </div>
 </footer>
@@ -303,8 +436,4 @@
 </body>
 </html>
 
-<!--
-<form class="form-inline my-2 my-lg-0">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-</form>-->
+

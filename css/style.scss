@@ -813,6 +813,27 @@ header {
 
   .container {
     text-align: center;
+    .doctor-card{
+      h5{
+        margin-top: 18px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #3D3D3F;
+      }
+      p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #999999;
+      }
+    }
 
     .explore-drs {
       margin-top: 86px;

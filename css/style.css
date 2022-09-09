@@ -710,6 +710,25 @@ header .container .navbar .navbar-nav .nav-item .nav-link {
 .our-doctors .container {
   text-align: center;
 }
+.our-doctors .container .doctor-card h5 {
+  margin-top: 18px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #3D3D3F;
+}
+.our-doctors .container .doctor-card p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #999999;
+}
 .our-doctors .container .explore-drs {
   margin-top: 86px;
 }

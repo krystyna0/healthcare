@@ -183,25 +183,55 @@ header .container .navbar .navbar-nav .nav-item .nav-link {
   top: -157px;
   right: -220px;
 }
+.main-banner .container .container .row .doctor-main-banner .wu-icon:hover {
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-name: headShake;
+  animation-name: headShake;
+}
 .main-banner .container .container .row .doctor-main-banner .phone-icon {
   position: absolute;
   top: -150px;
   left: 16px;
+}
+.main-banner .container .container .row .doctor-main-banner .phone-icon:hover {
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-name: headShake;
+  animation-name: headShake;
 }
 .main-banner .container .container .row .doctor-main-banner .happy-icon {
   position: absolute;
   bottom: 11px;
   right: -280px;
 }
+.main-banner .container .container .row .doctor-main-banner .happy-icon:hover {
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-name: headShake;
+  animation-name: headShake;
+}
 .main-banner .container .container .row .doctor-main-banner .pr-icon {
   position: absolute;
   bottom: -73px;
   left: -25px;
 }
+.main-banner .container .container .row .doctor-main-banner .pr-icon:hover {
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-name: headShake;
+  animation-name: headShake;
+}
 .main-banner .container .container .row .doctor-main-banner .chat-icon {
   position: absolute;
   top: 82px;
   left: -37px;
+}
+.main-banner .container .container .row .doctor-main-banner .chat-icon:hover {
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-name: headShake;
+  animation-name: headShake;
 }
 
 .steps {

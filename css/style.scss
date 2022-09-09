@@ -214,30 +214,60 @@ header {
             position: absolute;
             top: -157px;
             right: -220px;
+            &:hover{
+              -webkit-animation-timing-function: ease-in-out;
+              animation-timing-function: ease-in-out;
+              -webkit-animation-name: headShake;
+              animation-name: headShake;
+            }
           }
 
           .phone-icon {
             position: absolute;
             top: -150px;
             left: 16px;
+            &:hover{
+              -webkit-animation-timing-function: ease-in-out;
+              animation-timing-function: ease-in-out;
+              -webkit-animation-name: headShake;
+              animation-name: headShake;
+            }
           }
 
           .happy-icon {
             position: absolute;
             bottom: 11px;
             right: -280px;
+            &:hover{
+              -webkit-animation-timing-function: ease-in-out;
+              animation-timing-function: ease-in-out;
+              -webkit-animation-name: headShake;
+              animation-name: headShake;
+            }
           }
 
           .pr-icon {
             position: absolute;
             bottom: -73px;
             left: -25px;
+            &:hover{
+              -webkit-animation-timing-function: ease-in-out;
+              animation-timing-function: ease-in-out;
+              -webkit-animation-name: headShake;
+              animation-name: headShake;
+            }
           }
 
           .chat-icon {
             position: absolute;
             top: 82px;
             left: -37px;
+            &:hover{
+              -webkit-animation-timing-function: ease-in-out;
+              animation-timing-function: ease-in-out;
+              -webkit-animation-name: headShake;
+              animation-name: headShake;
+            }
           }
         }
       }

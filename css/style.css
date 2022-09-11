@@ -845,6 +845,7 @@ body {
 .best-service .container .row .main-banner-text ul {
   list-style: none;
   position: relative;
+  margin-bottom: 24px;
 }
 .best-service .container .row .main-banner-text ul li {
   font-family: "Roboto";
@@ -952,7 +953,6 @@ body {
   width: 349px;
   position: absolute;
   z-index: -1;
-  bottom: 33px;
 }
 
 .our-servise {

@@ -1057,9 +1057,10 @@ body {
         content: "";
         display: block;
         background-image: url("../images/carousel-active-element.svg");
-        height: 589px;
-        width: 556px;
+        height: 349px;
+        width: 349px;
         position: absolute;
+        z-index: -1;
       }
   }
 }

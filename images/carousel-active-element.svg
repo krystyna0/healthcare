@@ -1,28 +1,17 @@
-<svg width="589" height="556" viewBox="0 0 589 556" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_1_390)">
-<rect x="120" y="116" width="349" height="316" rx="10" fill="white"/>
-</g>
-<g opacity="0.5" filter="url(#filter1_d_1_390)">
-<path d="M120 414H469V422C469 427.523 464.523 432 459 432H130C124.477 432 120 427.523 120 422V414Z" fill="#40A3F8"/>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="349" height="316" viewBox="0 0 349 316" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
 <defs>
-<filter id="filter0_d_1_390" x="0" y="0" width="589" height="556" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="60"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_390"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_390" result="shape"/>
-</filter>
-<filter id="filter1_d_1_390" x="0" y="298" width="589" height="258" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="60"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_390"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_390" result="shape"/>
-</filter>
 </defs>
+<g transform="matrix(1 0 0 1 173.77 158.73)" id="DU7Jss3fQlRfoBvcKJuPZ"  >
+<g style="" vector-effect="non-scaling-stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)" id="XldQhQ82Pcvn-QlG4u2Vm"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-174.5, -158)" d="M 0 316 L 0 0 L 349 0 L 349 316 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0 149)" id="vd0hZChtzdRlyd-1GUgC9"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(64,163,248); fill-rule: nonzero; opacity: 0.5;" vector-effect="non-scaling-stroke"  transform=" translate(-294.5, -423)" d="M 120 414 L 469 414 L 469 422 C 469 427.523 464.523 432 459 432 L 130 432 C 124.477 432 120 427.523 120 422 L 120 414 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
 </svg>

@@ -1010,15 +1010,20 @@ body {
   width: 349px;
   min-height: 316px;
   display: flex;
-  align-items: center;
-  flex-direction: column;
   justify-content: center;
   box-shadow: 0 4px 120px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   background: linear-gradient(138.88deg, rgba(254, 254, 254, 0) -2.44%, #F9F9F9 -2.43%, rgba(254, 254, 254, 0.51) 98.26%);
   filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
 }
-.our-servise .owl-carousel .item-1 h5 {
+.our-servise .owl-carousel .item-1 div {
+  max-width: 224px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-servise .owl-carousel .item-1 div h5 {
   z-index: 1;
   margin-bottom: 23px;
   font-family: "Roboto";
@@ -1029,7 +1034,7 @@ body {
   text-align: center;
   color: #3D3D3F;
 }
-.our-servise .owl-carousel .item-1 p {
+.our-servise .owl-carousel .item-1 div p {
   z-index: 1;
   font-family: "Roboto";
   font-style: normal;
@@ -1039,7 +1044,7 @@ body {
   text-align: center;
   color: #999999;
 }
-.our-servise .owl-carousel .item-1 img {
+.our-servise .owl-carousel .item-1 div img {
   z-index: 1;
   width: 83px;
   margin-bottom: 19px;
@@ -1047,14 +1052,19 @@ body {
 .our-servise .owl-carousel .item-2 {
   width: 349px;
   min-height: 316px;
+  box-shadow: 0 4px 120px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.our-servise .owl-carousel .item-2 div {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 0 4px 120px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
+  max-width: 224px;
 }
-.our-servise .owl-carousel .item-2 h5 {
+.our-servise .owl-carousel .item-2 div h5 {
   z-index: 1;
   margin-bottom: 23px;
   font-family: "Roboto";
@@ -1065,7 +1075,7 @@ body {
   text-align: center;
   color: #3D3D3F;
 }
-.our-servise .owl-carousel .item-2 p {
+.our-servise .owl-carousel .item-2 div p {
   z-index: 1;
   font-family: "Roboto";
   font-style: normal;
@@ -1075,7 +1085,7 @@ body {
   text-align: center;
   color: #999999;
 }
-.our-servise .owl-carousel .item-2 img {
+.our-servise .owl-carousel .item-2 div img {
   z-index: 1;
   width: 76px;
   margin-bottom: 17px;
@@ -1083,14 +1093,19 @@ body {
 .our-servise .owl-carousel .item-3 {
   width: 349px;
   min-height: 316px;
+  box-shadow: 0 4px 120px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.our-servise .owl-carousel .item-3 div {
+  max-width: 224px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 0 4px 120px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
 }
-.our-servise .owl-carousel .item-3 h5 {
+.our-servise .owl-carousel .item-3 div h5 {
   z-index: 1;
   margin-bottom: 23px;
   font-family: "Roboto";
@@ -1101,7 +1116,7 @@ body {
   text-align: center;
   color: #3D3D3F;
 }
-.our-servise .owl-carousel .item-3 p {
+.our-servise .owl-carousel .item-3 div p {
   z-index: 1;
   font-family: "Roboto";
   font-style: normal;
@@ -1111,7 +1126,7 @@ body {
   text-align: center;
   color: #999999;
 }
-.our-servise .owl-carousel .item-3 img {
+.our-servise .owl-carousel .item-3 div img {
   z-index: 1;
   width: 65px;
   margin-bottom: 13px;

@@ -1216,10 +1216,7 @@ body {
   color: rgba(61, 61, 63, 0.7);
 }
 
-.clients-opinion .container .text-center {
-  margin-bottom: 93px;
-}
-.clients-opinion .container h4 {
+.clients-opinion h4 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -1227,6 +1224,11 @@ body {
   line-height: 49px;
   letter-spacing: 0.02em;
   color: #3D3D3F;
+  margin-bottom: 93px;
+  text-align: center;
+}
+.clients-opinion .owl-carousel .owl-stage {
+  padding-top: 20px;
 }
 .clients-opinion .owl-carousel .owl-nav button .owl-next:after {
   content: "";
@@ -1254,6 +1256,8 @@ body {
   width: 40px;
   height: 40px;
   position: absolute;
+  top: -20px;
+  right: 41px;
 }
 .clients-opinion .owl-carousel .item-1 h5 {
   font-family: "Roboto";
@@ -1311,6 +1315,15 @@ body {
   border-radius: 15px;
   padding: 0 0 30px 30px;
 }
+.clients-opinion .owl-carousel .item-2 .quote-icon:after {
+  content: "";
+  background-image: url("../images/quote-icon.svg");
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  right: 41px;
+}
 .clients-opinion .owl-carousel .item-2 h5 {
   font-family: "Roboto";
   font-style: normal;
@@ -1366,6 +1379,15 @@ body {
   box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
   border-radius: 15px;
   padding: 0 0 30px 30px;
+}
+.clients-opinion .owl-carousel .item-3 .quote-icon:after {
+  content: "";
+  background-image: url("../images/quote-icon.svg");
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  right: 41px;
 }
 .clients-opinion .owl-carousel .item-3 h5 {
   font-family: "Roboto";

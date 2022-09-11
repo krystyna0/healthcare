@@ -953,6 +953,7 @@ body {
   width: 349px;
   position: absolute;
   z-index: -1;
+  bottom: -15px;
 }
 
 .our-servise {

@@ -1185,7 +1185,7 @@ body {
   margin-right: 0;
 }
 .our-doctors .container .row .doctor-card .item {
-  width: 241px;
+  /*          width: 241px;*/
   height: 249px;
   border-radius: 10px;
 }

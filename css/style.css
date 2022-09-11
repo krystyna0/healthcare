@@ -948,11 +948,9 @@ body {
   content: "";
   display: block;
   background-image: url("../images/carousel-active-element.svg");
-  height: 258px;
-  width: 589px;
+  height: 589px;
+  width: 556px;
   position: absolute;
-  bottom: -92px;
-  left: -150px;
 }
 
 .our-servise {
@@ -1017,6 +1015,7 @@ body {
   margin-right: 65px;
 }
 .our-servise .owl-carousel .item-1 h5 {
+  z-index: 1;
   margin-bottom: 23px;
   font-family: "Roboto";
   font-style: normal;
@@ -1027,6 +1026,7 @@ body {
   color: #3D3D3F;
 }
 .our-servise .owl-carousel .item-1 p {
+  z-index: 1;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -1036,6 +1036,7 @@ body {
   color: #999999;
 }
 .our-servise .owl-carousel .item-1 img {
+  z-index: 1;
   width: 83px;
   margin-bottom: 19px;
 }
@@ -1051,6 +1052,7 @@ body {
   margin-right: 65px;
 }
 .our-servise .owl-carousel .item-2 h5 {
+  z-index: 1;
   margin-bottom: 23px;
   font-family: "Roboto";
   font-style: normal;
@@ -1061,6 +1063,7 @@ body {
   color: #3D3D3F;
 }
 .our-servise .owl-carousel .item-2 p {
+  z-index: 1;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -1070,6 +1073,7 @@ body {
   color: #999999;
 }
 .our-servise .owl-carousel .item-2 img {
+  z-index: 1;
   width: 76px;
   margin-bottom: 17px;
 }
@@ -1085,6 +1089,7 @@ body {
   margin-right: 65px;
 }
 .our-servise .owl-carousel .item-3 h5 {
+  z-index: 1;
   margin-bottom: 23px;
   font-family: "Roboto";
   font-style: normal;
@@ -1095,6 +1100,7 @@ body {
   color: #3D3D3F;
 }
 .our-servise .owl-carousel .item-3 p {
+  z-index: 1;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -1104,6 +1110,7 @@ body {
   color: #999999;
 }
 .our-servise .owl-carousel .item-3 img {
+  z-index: 1;
   width: 65px;
   margin-bottom: 13px;
 }

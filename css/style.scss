@@ -1057,10 +1057,11 @@ body {
         content: "";
         display: block;
         background-image: url("../images/carousel-active-element.svg");
-        height: 349px;
+        height: 316px;
         width: 349px;
         position: absolute;
         z-index: -1;
+        bottom: 33px;
       }
   }
 }
@@ -1100,6 +1101,7 @@ body {
     .owl-dots {
       display: flex;
       justify-content: center;
+      margin-top: 91px;
 
       .active{
         span{

@@ -1007,6 +1007,7 @@ body {
   transition: opacity 1.5s;
 }
 .our-servise .owl-carousel .item-1 {
+  padding-top: 61px;
   width: 349px;
   min-height: 316px;
   display: flex;
@@ -1050,6 +1051,7 @@ body {
   margin-bottom: 19px;
 }
 .our-servise .owl-carousel .item-2 {
+  padding-top: 59px;
   width: 349px;
   min-height: 316px;
   box-shadow: 0 4px 120px rgba(0, 0, 0, 0.05);
@@ -1091,6 +1093,7 @@ body {
   margin-bottom: 17px;
 }
 .our-servise .owl-carousel .item-3 {
+  padding-top: 55px;
   width: 349px;
   min-height: 316px;
   box-shadow: 0 4px 120px rgba(0, 0, 0, 0.05);

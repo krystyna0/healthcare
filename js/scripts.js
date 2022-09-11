@@ -4,6 +4,8 @@ $(document).ready(function(){
         loop:true,
         margin:65,
         nav:true,
+        dots:true,
+        center:true,
         navText: [ '', ' ' ],
 
         responsive:{
@@ -12,7 +14,7 @@ $(document).ready(function(){
             },
 
             1000:{
-                items:3
+                items:3,
             }
         }
     });

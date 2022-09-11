@@ -61,7 +61,7 @@ body {
                           Navbar
   ======================================================*/
 .navbar {
-  background: white;
+/*  background: white;*/
   color: rgb(13, 26, 38);
   position: fixed;
   top: 0;
@@ -1044,6 +1044,29 @@ body {
   }
 }
 
+/*body > section.our-servise > div:nth-child(2) > div > div.owl-stage-outer > div > div.owl-item.active.center > div*/
+/*body > section.our-servise > div:nth-child(2) > div > div.owl-stage-outer > div > div.owl-item.active.center*/
+
+.owl-item.active.center{
+  position: relative;
+  div {
+      &:after {
+        content: "";
+        position: absolute;
+        content: "";
+        display: block;
+        background-image: url("../images/carousel-active-element.svg");
+        height: 258px;
+        width: 589px;
+        position: absolute;
+        bottom: -92px;
+        left: -150px;
+      }
+  }
+}
+
+
+
 
 .our-servise {
   margin-bottom: 121px;
@@ -1078,15 +1101,30 @@ body {
       display: flex;
       justify-content: center;
 
+      .active{
+        span{
+          background: #40A3F8;
+          border-radius: 6px;
+          height: 15px;
+          width: 60px;
+          transition: 1.5s;
+          transition-duration: .2s;
+        }
+      }
+
       span {
         display: inline-block;
-        width: 10px;
-        height: 10px;
-        background: darkgray;
+        width: 18px;
+        height: 18px;
+        background: #DBE8EE;
         align-items: center;
         border-radius: 50%;
-        margin-right: 10px;
-        transition: 0.3ms;
+        margin: 5px;
+        &:hover{
+          background: #40A3F8;
+          transition-duration: .2s;
+          transition: opacity 1.5s;
+        }
       }
     }
 
@@ -1344,6 +1382,9 @@ body {
 
 .clients-opinion {
   .container {
+    .text-center {
+      margin-bottom: 93px;
+    }
     h4 {
       font-family: 'Roboto';
       font-style: normal;
@@ -1356,6 +1397,18 @@ body {
   }
 
   .owl-carousel {
+    .owl-nav button{
+    .owl-next{
+      &:after{
+        content: "";
+        display: block;
+        width: 32px;
+        height: 33px;
+        position: absolute;
+        background-image: url("../images/nav-icon-next.svg");
+      }
+    }
+    }
     .item-1 {
       position: relative;
       max-width: 370px;
@@ -1363,9 +1416,20 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: end;
-      linear-gradient: (132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
+      background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
       box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+      border-radius: 15px;
+      padding: 0 0 30px 30px;
 
+      .quote-icon{
+        &:after{
+          content: "";
+          background-image: url("../images/quote-icon.svg");
+          width: 40px;
+          height: 40px;
+          position: absolute;
+        }
+      }
       h5 {
         font-family: 'Roboto';
         font-style: normal;
@@ -1405,15 +1469,15 @@ body {
         height: 63px;
         width: 63px;
         position: absolute;
-        top: 20px;
-        left: 110px;
+        top: 7px;
+        left: 142px;
       }
 
       .grade {
         width: 103px;
         height: 55px;
         position: absolute;
-        top: 116px;
+        top: 87px;
         right: 20px;
       }
     }
@@ -1425,8 +1489,10 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: end;
-      linear-gradient: (132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
+      background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
       box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+      border-radius: 15px;
+      padding: 0 0 30px 30px;
 
       h5 {
         font-family: 'Roboto';
@@ -1467,15 +1533,15 @@ body {
         height: 63px;
         width: 63px;
         position: absolute;
-        top: 20px;
-        left: 110px;
+        top: 7px;
+        left: 142px;
       }
 
       .grade {
         width: 103px;
         height: 55px;
         position: absolute;
-        top: 116px;
+        top: 87px;
         right: 20px;
       }
     }
@@ -1487,8 +1553,10 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: end;
-      linear-gradient: (132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
+      background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
       box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+      border-radius: 15px;
+      padding: 0 0 30px 30px;
 
       h5 {
         font-family: 'Roboto';
@@ -1529,15 +1597,15 @@ body {
         height: 63px;
         width: 63px !important;
         position: absolute;
-        top: 20px;
-        left: 110px;
+        top: 7px;
+        left: 142px;
       }
 
       .grade {
         width: 103px;
         height: 55px;
         position: absolute;
-        top: 116px;
+        top: 87px;
         right: 20px;
       }
     }
@@ -1546,7 +1614,7 @@ body {
 
 
 .booking-appoinment {
-  margin-top: 119px;
+  margin-top: 198px;
 
   .container {
     max-width: 1170px;
@@ -1599,12 +1667,28 @@ body {
 
 
 footer {
-  padding: 34px 134px 53px 139px;
-  margin-top: 68px;
+/*  padding: 34px 134px 53px 139px;*/
+  margin-top: 123px;
 
   .container {
     &:first-of-type {
       background-color: #FFFFFF;
+      max-width: 100%;
+      padding: 34px 134px 53px 139px;
+      position: relative;
+      &:after{
+        background-image: url("../images/footer-line.svg");
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        bottom: 22px;
+        left: 0px;
+      }
+    }
+    &:last-of-type{
+      padding: 5px 0 30px;
     }
 
     .logo-info {
@@ -1631,8 +1715,8 @@ footer {
 
     .category {
       ul {
+        margin-top: 11px;
         list-style: none;
-
         li {
           margin-bottom: 24px;
 
@@ -1660,8 +1744,8 @@ footer {
 
     .about {
       ul {
+        margin-top: 11px;
         list-style: none;
-
         li {
           margin-bottom: 24px;
 
@@ -1689,6 +1773,7 @@ footer {
   }
 
   .subscribe {
+    margin-top: 11px;
     h5 {
       font-family: 'DM Sans';
       font-style: normal;

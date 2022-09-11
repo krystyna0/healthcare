@@ -46,7 +46,7 @@ body {
                           Navbar
   ======================================================*/
 .navbar {
-  background: white;
+  /*  background: white;*/
   color: rgb(13, 26, 38);
   position: fixed;
   top: 0;
@@ -936,6 +936,24 @@ body {
   right: -48px;
 }
 
+/*body > section.our-servise > div:nth-child(2) > div > div.owl-stage-outer > div > div.owl-item.active.center > div*/
+/*body > section.our-servise > div:nth-child(2) > div > div.owl-stage-outer > div > div.owl-item.active.center*/
+.owl-item.active.center {
+  position: relative;
+}
+.owl-item.active.center div:after {
+  content: "";
+  position: absolute;
+  content: "";
+  display: block;
+  background-image: url("../images/carousel-active-element.svg");
+  height: 258px;
+  width: 589px;
+  position: absolute;
+  bottom: -92px;
+  left: -150px;
+}
+
 .our-servise {
   margin-bottom: 121px;
 }
@@ -964,15 +982,27 @@ body {
   display: flex;
   justify-content: center;
 }
+.our-servise .owl-carousel .owl-dots .active span {
+  background: #40A3F8;
+  border-radius: 6px;
+  height: 15px;
+  width: 60px;
+  transition: 1.5s;
+  transition-duration: 0.2s;
+}
 .our-servise .owl-carousel .owl-dots span {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: darkgray;
+  width: 18px;
+  height: 18px;
+  background: #DBE8EE;
   align-items: center;
   border-radius: 50%;
-  margin-right: 10px;
-  transition: 0.3ms;
+  margin: 5px;
+}
+.our-servise .owl-carousel .owl-dots span:hover {
+  background: #40A3F8;
+  transition-duration: 0.2s;
+  transition: opacity 1.5s;
 }
 .our-servise .owl-carousel .item-1 {
   max-width: 349px;
@@ -1186,6 +1216,9 @@ body {
   color: rgba(61, 61, 63, 0.7);
 }
 
+.clients-opinion .container .text-center {
+  margin-bottom: 93px;
+}
 .clients-opinion .container h4 {
   font-family: "Roboto";
   font-style: normal;
@@ -1195,6 +1228,14 @@ body {
   letter-spacing: 0.02em;
   color: #3D3D3F;
 }
+.clients-opinion .owl-carousel .owl-nav button .owl-next:after {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 33px;
+  position: absolute;
+  background-image: url("../images/nav-icon-next.svg");
+}
 .clients-opinion .owl-carousel .item-1 {
   position: relative;
   max-width: 370px;
@@ -1202,8 +1243,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  linear-gradient: 132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%;
+  background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
   box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 0 0 30px 30px;
+}
+.clients-opinion .owl-carousel .item-1 .quote-icon:after {
+  content: "";
+  background-image: url("../images/quote-icon.svg");
+  width: 40px;
+  height: 40px;
+  position: absolute;
 }
 .clients-opinion .owl-carousel .item-1 h5 {
   font-family: "Roboto";
@@ -1239,14 +1289,14 @@ body {
   height: 63px;
   width: 63px;
   position: absolute;
-  top: 20px;
-  left: 110px;
+  top: 7px;
+  left: 142px;
 }
 .clients-opinion .owl-carousel .item-1 .grade {
   width: 103px;
   height: 55px;
   position: absolute;
-  top: 116px;
+  top: 87px;
   right: 20px;
 }
 .clients-opinion .owl-carousel .item-2 {
@@ -1256,8 +1306,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  linear-gradient: 132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%;
+  background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
   box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 0 0 30px 30px;
 }
 .clients-opinion .owl-carousel .item-2 h5 {
   font-family: "Roboto";
@@ -1293,14 +1345,14 @@ body {
   height: 63px;
   width: 63px;
   position: absolute;
-  top: 20px;
-  left: 110px;
+  top: 7px;
+  left: 142px;
 }
 .clients-opinion .owl-carousel .item-2 .grade {
   width: 103px;
   height: 55px;
   position: absolute;
-  top: 116px;
+  top: 87px;
   right: 20px;
 }
 .clients-opinion .owl-carousel .item-3 {
@@ -1310,8 +1362,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  linear-gradient: 132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%;
+  background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
   box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 0 0 30px 30px;
 }
 .clients-opinion .owl-carousel .item-3 h5 {
   font-family: "Roboto";
@@ -1347,19 +1401,19 @@ body {
   height: 63px;
   width: 63px !important;
   position: absolute;
-  top: 20px;
-  left: 110px;
+  top: 7px;
+  left: 142px;
 }
 .clients-opinion .owl-carousel .item-3 .grade {
   width: 103px;
   height: 55px;
   position: absolute;
-  top: 116px;
+  top: 87px;
   right: 20px;
 }
 
 .booking-appoinment {
-  margin-top: 119px;
+  margin-top: 198px;
 }
 .booking-appoinment .container {
   max-width: 1170px;
@@ -1405,11 +1459,27 @@ body {
 }
 
 footer {
-  padding: 34px 134px 53px 139px;
-  margin-top: 68px;
+  /*  padding: 34px 134px 53px 139px;*/
+  margin-top: 123px;
 }
 footer .container:first-of-type {
   background-color: #FFFFFF;
+  max-width: 100%;
+  padding: 34px 134px 53px 139px;
+  position: relative;
+}
+footer .container:first-of-type:after {
+  background-image: url("../images/footer-line.svg");
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 22px;
+  left: 0px;
+}
+footer .container:last-of-type {
+  padding: 5px 0 30px;
 }
 footer .container .logo-info .logo-sm a {
   margin-right: 16px;
@@ -1427,6 +1497,7 @@ footer .container .logo-info p {
   margin-bottom: 16px;
 }
 footer .container .category ul {
+  margin-top: 11px;
   list-style: none;
 }
 footer .container .category ul li {
@@ -1450,6 +1521,7 @@ footer .container .category ul li a {
   text-decoration: none;
 }
 footer .container .about ul {
+  margin-top: 11px;
   list-style: none;
 }
 footer .container .about ul li {
@@ -1471,6 +1543,9 @@ footer .container .about ul li a {
   line-height: 14px;
   color: #646464;
   text-decoration: none;
+}
+footer .subscribe {
+  margin-top: 11px;
 }
 footer .subscribe h5 {
   font-family: "DM Sans";

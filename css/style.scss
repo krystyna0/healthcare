@@ -1129,7 +1129,7 @@ body {
     }
 
     .item-1 {
-      max-width: 349px;
+      width: 349px;
       min-height: 316px;
       display: flex;
       align-items: center;
@@ -1137,6 +1137,9 @@ body {
       justify-content: center;
       box-shadow: 0 4px 120px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
+      background: linear-gradient(138.88deg, rgba(254, 254, 254, 0) -2.44%, #F9F9F9 -2.43%, rgba(254, 254, 254, 0.51) 98.26%);
+      filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
+
 
       h5 {
         z-index: 1;
@@ -1169,7 +1172,7 @@ body {
     }
 
     .item-2 {
-      max-width: 349px;
+      width: 349px;
       min-height: 316px;
       display: flex;
       align-items: center;
@@ -1209,7 +1212,7 @@ body {
     }
 
     .item-3 {
-      max-width: 349px;
+      width: 349px;
       min-height: 316px;
       display: flex;
       align-items: center;

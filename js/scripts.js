@@ -3,7 +3,6 @@ $(document).ready(function(){
     $('.slide-one').owlCarousel({
         loop:true,
         margin:65,
-        nav:true,
         dots:true,
         center:true,
         navText: [ '', ' ' ],

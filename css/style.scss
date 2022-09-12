@@ -815,6 +815,58 @@ body {
           @include max-screen(992px){
             left: 335px;
           }
+          @include max-screen(767px){
+              left: 247px;
+              top: 22px;
+          }
+          @include max-screen(575px){
+            left: 262px;
+            top: 20px;
+          }
+          @include max-screen(555px){
+            left: 253px;
+            top: 15px;
+          }
+          @include max-screen(537px){
+            left: 245px;
+          }
+          @include max-screen(519px){
+            left: 233px;
+          }
+          @include max-screen(503px){
+            left: 225px;
+          }
+          @include max-screen(480px){
+            left: 214px;
+          }
+          @include max-screen(462px){
+            left: 206px;
+          }
+          @include max-screen(435px){
+            left: 193px;
+            top: 18px;
+          }
+          @include max-screen(410px){
+            left: 180px;
+          }
+          @include max-screen(388px){
+            left: 169px;
+          }
+          @include max-screen(369px){
+            left: 161px;
+          }
+          @include max-screen(350px){
+            left: 151px;
+          }
+          @include max-screen(325px){
+            left: 139px;
+          }
+          @include max-screen(303px){
+            left: 128px;
+          }
+          @include max-screen(281px){
+            left: 117px;
+          }
         }
 
         .steps-icon-2 {
@@ -827,7 +879,57 @@ body {
           @include max-screen(992px){
             left: 335px;
           }
-
+          @include max-screen(767px){
+            left: 247px;
+            top: 22px;
+          }
+          @include max-screen(575px){
+            left: 262px;
+            top: 20px;
+          }
+          @include max-screen(555px){
+            left: 253px;
+            top: 15px;
+          }
+          @include max-screen(537px){
+            left: 245px;
+          }
+          @include max-screen(519px){
+            left: 233px;
+          }
+          @include max-screen(503px){
+            left: 225px;
+          }
+          @include max-screen(480px){
+            left: 214px;
+          }
+          @include max-screen(462px){
+            left: 207px;
+          }
+          @include max-screen(435px){
+            left: 193px;
+          }
+          @include max-screen(410px){
+            left: 180px;
+          }
+          @include max-screen(388px){
+            left: 169px;
+          }
+          @include max-screen(369px){
+            left: 161px;
+          }
+          @include max-screen(350px){
+            left: 151px;
+          }
+          @include max-screen(325px){
+            left: 139px;
+          }
+          @include max-screen(303px){
+            left: 128px;
+          }
+          @include max-screen(281px){
+            left: 117px;
+          }
         }
 
 
@@ -840,6 +942,57 @@ body {
           }
           @include max-screen(992px){
             left: 335px;
+          }
+          @include max-screen(767px){
+            left: 247px;
+            top: 22px;
+          }
+          @include max-screen(575px){
+              left: 262px;
+              top: 20px;
+          }
+          @include max-screen(555px){
+            left: 253px;
+            top: 15px;
+          }
+          @include max-screen(537px){
+            left: 245px;
+          }
+          @include max-screen(519px){
+            left: 233px;
+          }
+          @include max-screen(503px){
+            left: 225px;
+          }
+          @include max-screen(480px){
+            left: 214px;
+          }
+          @include max-screen(462px){
+            left: 204px;
+          }
+          @include max-screen(435px){
+            left: 193px;
+          }
+          @include max-screen(410px){
+            left: 180px;
+          }
+          @include max-screen(388px){
+            left: 169px;
+          }
+          @include max-screen(369px){
+            left: 161px;
+          }
+          @include max-screen(350px){
+            left: 151px;
+          }
+          @include max-screen(325px){
+            left: 139px;
+          }
+          @include max-screen(303px){
+            left: 128px;
+          }
+          @include max-screen(281px){
+            left: 117px;
           }
         }
 
@@ -862,6 +1015,7 @@ body {
           line-height: 20px;
           text-align: center;
           color: rgba(0, 0, 0, 0.5);
+          max-width: 319px;
         }
       }
     }
@@ -1394,8 +1548,22 @@ body {
 
   .container {
     text-align: center;
+    @include max-screen(768px){
+      max-width: 620px;
+    }@include max-screen(655px){
+       max-width: 580px;
+     }
+    @include max-screen(621px){
+      max-width: 560px;
+    }
+    @include max-screen(578px){
+      max-width: 550px;
+    }
     .doctors-cards{
       justify-content: space-between;
+      @include max-screen(534px){
+        justify-content: center;
+      }
     }
     .doctor-card {
 

@@ -2057,7 +2057,7 @@ footer {
 footer .container:first-of-type {
   background-color: #FFFFFF;
   max-width: 100%;
-  padding: 34px 134px 53px 139px;
+  padding: 34px 44px 53px 49px;
   position: relative;
 }
 footer .container:first-of-type:after {
@@ -2135,6 +2135,42 @@ footer .container .about ul li a {
   line-height: 14px;
   color: #646464;
   text-decoration: none;
+}
+footer .container .footer-ul {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+}
+@media screen and (max-width: 1245px) {
+  footer .container .footer-ul {
+    width: 630px;
+  }
+}
+@media screen and (max-width: 1145px) {
+  footer .container .footer-ul {
+    width: 580px;
+  }
+}
+@media screen and (max-width: 1161px) {
+  footer .container .footer-ul {
+    width: 530px;
+  }
+}
+@media screen and (max-width: 1001px) {
+  footer .container .footer-ul {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 705px) {
+  footer .container .footer-ul {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 1001px) {
+  footer .container:first-of-type {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 footer .subscribe {
   margin-top: 11px;

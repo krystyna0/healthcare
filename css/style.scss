@@ -2068,7 +2068,7 @@ footer {
     &:first-of-type {
       background-color: #FFFFFF;
       max-width: 100%;
-      padding: 34px 134px 53px 139px;
+      padding: 34px 44px 53px 49px;
       position: relative;
 
       &:after {
@@ -2166,6 +2166,32 @@ footer {
             text-decoration: none;
           }
         }
+      }
+    }
+    .footer-ul{
+      display: flex;
+      justify-content: space-between;
+      width: 750px;
+      @include max-screen(1245px){
+        width: 630px;
+      }
+      @include max-screen(1145px){
+        width: 580px;
+      }
+      @include max-screen(1161px){
+        width: 530px;
+      }
+      @include max-screen(1001px){
+        width: 650px;
+      }
+      @include max-screen(705px){
+        width: 550px;
+      }
+    }
+    &:first-of-type{
+      @include max-screen(1001px){
+        flex-direction: column;
+        align-items: center;
       }
     }
   }

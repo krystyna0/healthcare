@@ -1044,10 +1044,20 @@ body {
         padding: 34px 26px 20px 26px;
         text-align: center;
         position: relative;
-        position: absolute;
+/*        position: absolute;*/
         z-index: 2;
-        top: 132px;
-        left: -81px;
+        top: 308px;
+        left: -89px;
+        @include max-screen(721px){
+          left: -77px;
+        }
+        @include max-screen(678px){
+          left: -48px;
+        }
+        @include max-screen(624px){
+          left: -28px;
+          top: 370px;
+        }
 
         .heart-img {
           position: absolute;
@@ -1296,6 +1306,9 @@ body {
           z-index: 1;
           top: 21px;
           right: -48px;
+          @include max-screen(581px){
+            display: none;
+          }
         }
         .doctor-image{
           height: 582px;

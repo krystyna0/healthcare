@@ -1155,10 +1155,26 @@ body {
   padding: 34px 26px 20px 26px;
   text-align: center;
   position: relative;
-  position: absolute;
+  /*        position: absolute;*/
   z-index: 2;
-  top: 132px;
-  left: -81px;
+  top: 308px;
+  left: -89px;
+}
+@media screen and (max-width: 721px) {
+  .best-service .container .row .doctor-review {
+    left: -77px;
+  }
+}
+@media screen and (max-width: 678px) {
+  .best-service .container .row .doctor-review {
+    left: -48px;
+  }
+}
+@media screen and (max-width: 624px) {
+  .best-service .container .row .doctor-review {
+    left: -28px;
+    top: 370px;
+  }
 }
 .best-service .container .row .doctor-review .heart-img {
   position: absolute;
@@ -1369,6 +1385,11 @@ body {
   z-index: 1;
   top: 21px;
   right: -48px;
+}
+@media screen and (max-width: 581px) {
+  .best-service .container .row .doctor-banner .user-feedback {
+    display: none;
+  }
 }
 .best-service .container .row .doctor-banner .doctor-image {
   height: 582px;

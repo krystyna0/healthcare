@@ -10,7 +10,8 @@ $(document).ready(function(){
 
         responsive:{
             0:{
-                items:1
+                items:1,
+                margin:0,
             },
 
             1000:{

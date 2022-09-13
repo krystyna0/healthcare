@@ -27,11 +27,12 @@ $(document).ready(function(){
 
         responsive:{
             0:{
-                items:1
+                items:1,
+                margin:10,
             },
 
             1000:{
-                items:3
+                items:3,
             }
         }
     });

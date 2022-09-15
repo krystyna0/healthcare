@@ -31,7 +31,7 @@ $(document).ready(function(){
                 margin:10,
             },
 
-            1000:{
+            1026:{
                 items:3,
             }
         }

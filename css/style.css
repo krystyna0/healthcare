@@ -2761,6 +2761,11 @@ footer form button {
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
+footer form button:hover {
+  transform: scale(1.1);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
 footer .license-info .rights {
   font: 14px/14px "DM Sans";
   font-style: normal;

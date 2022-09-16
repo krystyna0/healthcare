@@ -130,6 +130,12 @@ body {
           font-style: normal;
           font-weight: 500;
           color: #FFFFFF;
+          &:hover {
+            color: #aed9ff;
+            transform: scale(1.1);
+            transition: all 1s ease;
+            -webkit-transition: all 1s ease;
+          }
         }
       }
 
@@ -607,6 +613,11 @@ body {
               width: 70px;
               height: 59px;
               background-color: #40A3F8;
+              &:hover{
+                transform: scale(1.1);
+                transition: all 1s ease;
+                -webkit-transition: all 1s ease;
+              }
               @include max-screen(770px) {
                 width: 59px;
                 height: 50px;
@@ -1311,6 +1322,11 @@ body {
           display: inline-block;
           position: relative;
           text-decoration: none;
+          &:hover{
+            transform: scale(1.1);
+            transition: all 1s ease;
+            -webkit-transition: all 1s ease;
+          }
 
           &:after {
             content: "";
@@ -1756,6 +1772,11 @@ body {
         text-align: center;
         color: #FFFFFF;
         text-shadow: 0 4px 22px rgba(0, 0, 0, 0.05);
+        &:hover{
+          transform: scale(1.1);
+          transition: all 1s ease;
+          -webkit-transition: all 1s ease;
+        }
       }
     }
 
@@ -2288,6 +2309,7 @@ body {
       }
 
       a {
+        text-decoration: none;
         padding: 16px 17px 15px 18px;
         background-color: #FFFFFF;
         box-shadow: 0 4px 22px rgba(0, 0, 0, 0.05);
@@ -2297,6 +2319,12 @@ body {
         font-weight: 500;
         font-feature-settings: 'cpsp' on;
         color: #40A3F8;
+        display: inline-block;
+        &:hover{
+          transform: scale(1.1);
+          transition: all 1s ease;
+          -webkit-transition: all 1s ease;
+        }
         @include max-screen(429px){
           font-size: 13px;
           padding: 12px 13px 11px 14px;
@@ -2504,6 +2532,7 @@ footer {
         }
       }
       .footer-ul{
+        margin-right: 110px;
         @include max-screen(1025px){
           margin-right: 25px;
         }

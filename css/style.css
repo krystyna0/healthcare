@@ -18,7 +18,7 @@ body {
   line-height: 60px;
   width: 100vw;
   z-index: 10;
-  left: 0px;
+  left: 0;
 }
 .navbar .nav-wrapper {
   margin: auto;
@@ -114,11 +114,9 @@ body {
   padding: 14px 28px 11px;
   background-color: #40A3F8;
   border-radius: 5px;
-  font-family: "Poppins";
+  font: 15px/22px "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 14.997px;
-  line-height: 22px;
   color: #FFFFFF;
 }
 .navbar ul li a {
@@ -129,11 +127,9 @@ body {
   text-decoration: none;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
-  font-family: "Poppins";
+  font: 16px/24px "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
 }
 @media screen and (max-width: 879px) {
   .navbar ul li a {
@@ -147,26 +143,6 @@ body {
   -webkit-transition: all 1s ease;
 }
 
-/*!* Animated Bottom Line *!
-.navbar li a:before, .navbar li a:after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 1px;
-  bottom: -1px;
-  background: rgb(13, 26, 38);
-}
-
-.navbar li a:before {
-  left: 0;
-  transition: 0.5s;
-}
-
-.navbar li a:after {
-  background: rgb(13, 26, 38);
-  right: 0;
-  !* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); *!
-}*/
 .navbar li a:hover:before {
   background: rgb(13, 26, 38);
   width: 100%;
@@ -218,7 +194,7 @@ body {
     transition: 0.3s width 0.4s;
   }
   .icon-bars::after {
-    margin-top: 0px;
+    margin-top: 0;
     background: rgb(13, 26, 38);
     content: "";
     position: absolute;
@@ -241,24 +217,24 @@ body {
   }
   @keyframes middleBar {
     0% {
-      width: 0px;
+      width: 0;
     }
     50% {
       width: 20px;
     }
     100% {
-      width: 0px;
+      width: 0;
     }
   }
   @-webkit-keyframes middleBar {
     0% {
-      width: 0px;
+      width: 0;
     }
     50% {
       width: 20px;
     }
     100% {
-      width: 0px;
+      width: 0;
     }
   }
   .icon-bars.overlay::before {
@@ -270,24 +246,24 @@ body {
   }
   @keyframes topBar {
     0% {
-      width: 0px;
+      width: 0;
     }
     50% {
       width: 10px;
     }
     100% {
-      width: 0px;
+      width: 0;
     }
   }
   @-webkit-keyframes topBar {
     0% {
-      width: 0px;
+      width: 0;
     }
     50% {
       width: 10px;
     }
     100% {
-      width: 0px;
+      width: 0;
     }
   }
   .icon-bars.overlay::after {
@@ -299,24 +275,24 @@ body {
   }
   @keyframes bottomBar {
     0% {
-      width: 0px;
+      width: 0;
     }
     50% {
       width: 15px;
     }
     100% {
-      width: 0px;
+      width: 0;
     }
   }
   @-webkit-keyframes bottomBar {
     0% {
-      width: 0px;
+      width: 0;
     }
     50% {
       width: 15px;
     }
     100% {
-      width: 0px;
+      width: 0;
     }
   }
   /* Toggle Menu Icon */
@@ -380,11 +356,9 @@ body {
   text-transform: uppercase;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
-  font-family: "Roboto";
+  font: 42px/66px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 42px;
-  line-height: 66px;
   color: #40A3F8;
   /*   -webkit-transition: 0.2s opacity 0.2s ease-out;
     transition: 0.2s opacity 0.2s ease-out; */
@@ -442,11 +416,9 @@ body {
   align-items: flex-start;
 }
 .main-banner .container .container .row .main-banner-text h2 {
-  font-family: "Roboto";
+  font: 48px/70px "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 70px;
   color: #3E3E3E;
 }
 @media screen and (max-width: 460px) {
@@ -455,11 +427,9 @@ body {
   }
 }
 .main-banner .container .container .row .main-banner-text h1 {
-  font-family: "Poppins";
+  font: 48px/70px "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 70px;
   color: #40A3F8;
 }
 @media screen and (max-width: 460px) {
@@ -468,11 +438,9 @@ body {
   }
 }
 .main-banner .container .container .row .main-banner-text p {
-  font-family: "Roboto";
+  font: 14px/30px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
   color: rgba(117, 117, 117, 0.46);
   text-align: left;
 }
@@ -678,11 +646,9 @@ body {
   background: rgba(245, 246, 250, 0.52);
   border-radius: 8px;
   border: none;
-  font-family: "Poppins";
+  font: 14px/24px "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
   color: rgba(0, 0, 0, 0.3);
 }
 @media screen and (max-width: 1200px) {
@@ -704,11 +670,9 @@ body {
   background: rgba(245, 246, 250, 0.52);
   border-radius: 8px;
   border: none;
-  font-family: "Poppins";
+  font: 14px/24px "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
   color: #3D3D3F;
 }
 @media screen and (max-width: 1200px) {
@@ -872,11 +836,9 @@ body {
 }
 .steps .container .row .steps-header h3 {
   margin-bottom: 51px;
-  font-family: "Roboto";
+  font: 42px/70px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 42px;
-  line-height: 70px;
   color: #3E3E3E;
 }
 @media screen and (max-width: 391px) {
@@ -1209,21 +1171,18 @@ body {
 }
 .steps .container .row .steps-item h3 {
   text-align: center;
-  font-family: "Roboto";
+  font: 20px/32px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 32px;
   color: #3D3D3F;
 }
 .steps .container .row .steps-item p {
   text-align: center;
-  font-family: "Roboto";
+  font: 12px/20px "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
-  text-align: center;
   color: rgba(0, 0, 0, 0.5);
   max-width: 319px;
 }
@@ -1320,15 +1279,13 @@ body {
   left: -10px;
 }
 .best-service .container .row .doctor-review .first-review .review-text h5 {
-  font-family: "Poppins";
+  font: 20px/32px "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 32px;
   color: #3D3D3F;
 }
 .best-service .container .row .doctor-review .first-review .review-text p {
-  font-family: "Poppins";
+  font: 12px/18px "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1337,7 +1294,7 @@ body {
   margin-bottom: 0;
 }
 .best-service .container .row .doctor-review .first-review .review-text p span {
-  font-family: "Poppins";
+  font: 12px/18px "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1361,22 +1318,18 @@ body {
   text-align: center;
 }
 .best-service .container .row .doctor-review .benefits .review-text p {
-  font-family: "SF Pro Display";
+  font: 12px/32px "SF Pro Display";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 32px;
   align-items: center;
   letter-spacing: 0.02em;
   color: #A0A2B3;
   margin-bottom: 0;
 }
 .best-service .container .row .doctor-review .benefits .review-text span {
-  font-family: "Poppins";
+  font: 12px/32px "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 32px;
   align-items: center;
   color: #636481;
   display: inline-block;
@@ -1384,7 +1337,7 @@ body {
   top: -10px;
 }
 .best-service .container .row .doctor-review .clinic {
-  font-family: "Poppins";
+  font: 12px/18px "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1406,11 +1359,9 @@ body {
   max-width: 506px;
 }
 .best-service .container .row .main-banner-text h2 {
-  font-family: "Roboto";
+  font: 42px/49px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 42px;
-  line-height: 49px;
   letter-spacing: 0.02em;
   color: #3D3D3F;
 }
@@ -1420,7 +1371,7 @@ body {
   }
 }
 .best-service .container .row .main-banner-text p {
-  font-family: "Roboto";
+  font: 18px/30px "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1434,11 +1385,9 @@ body {
   margin-bottom: 24px;
 }
 .best-service .container .row .main-banner-text ul li {
-  font-family: "Roboto";
+  font: 16px/30px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
   letter-spacing: 0.02em;
   color: #3D3D3F;
 }
@@ -1449,7 +1398,7 @@ body {
   display: block;
   position: absolute;
   top: 1px;
-  left: 0px;
+  left: 0;
   background-image: url("../images/chekbox.svg");
 }
 .best-service .container .row .main-banner-text ul li:nth-child(2):before {
@@ -1459,7 +1408,7 @@ body {
   display: block;
   position: absolute;
   top: 34px;
-  left: 0px;
+  left: 0;
   background-image: url("../images/chekbox.svg");
 }
 @media screen and (max-width: 429px) {
@@ -1474,18 +1423,16 @@ body {
   display: block;
   position: absolute;
   bottom: 5px;
-  left: 0px;
+  left: 0;
   background-image: url("../images/chekbox.svg");
 }
 .best-service .container .row .main-banner-text a {
   padding: 10px 42px 10px 19px;
   background-color: #40A3F8;
   border-radius: 5px;
-  font-family: "Roboto";
+  font: 16px/30px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
   display: inline-block;
@@ -1702,7 +1649,6 @@ body {
   background-image: url("../images/carousel-active-element.svg");
   height: 316px;
   width: 349px;
-  position: absolute;
   z-index: -1;
   bottom: 2px;
 }
@@ -1712,11 +1658,9 @@ body {
 }
 .our-servise .container h3 {
   margin-bottom: 24px;
-  font-family: "Roboto";
+  font: 42px/49px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 42px;
-  line-height: 49px;
   letter-spacing: 0.02em;
   color: #3D3D3F;
 }
@@ -1727,11 +1671,9 @@ body {
 }
 .our-servise .container p {
   margin-bottom: 75px;
-  font-family: "Roboto";
+  font: 18px/30px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
   text-align: center;
   letter-spacing: 0.02em;
   color: rgba(61, 61, 63, 0.7);
@@ -1794,21 +1736,17 @@ body {
 .our-servise .owl-carousel .item-1 div h5 {
   z-index: 1;
   margin-bottom: 23px;
-  font-family: "Roboto";
+  font: 18px/30px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
   text-align: center;
   color: #3D3D3F;
 }
 .our-servise .owl-carousel .item-1 div p {
   z-index: 1;
-  font-family: "Roboto";
+  font: 14px/22px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
   text-align: center;
   color: #999999;
 }
@@ -1841,21 +1779,17 @@ body {
 .our-servise .owl-carousel .item-2 div h5 {
   z-index: 1;
   margin-bottom: 23px;
-  font-family: "Roboto";
+  font: 18px/30px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
   text-align: center;
   color: #3D3D3F;
 }
 .our-servise .owl-carousel .item-2 div p {
   z-index: 1;
-  font-family: "Roboto";
+  font: 14px/22px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
   text-align: center;
   color: #999999;
 }
@@ -1888,21 +1822,17 @@ body {
 .our-servise .owl-carousel .item-3 div h5 {
   z-index: 1;
   margin-bottom: 23px;
-  font-family: "Roboto";
+  font: 18px/30px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
   text-align: center;
   color: #3D3D3F;
 }
 .our-servise .owl-carousel .item-3 div p {
   z-index: 1;
-  font-family: "Roboto";
+  font: 14px/22px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
   text-align: center;
   color: #999999;
 }
@@ -1948,20 +1878,16 @@ body {
 }
 .our-doctors .container .doctor-card h5 {
   margin-bottom: 2px;
-  font-family: "Roboto";
+  font: 18px/30px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
   text-align: center;
   color: #3D3D3F;
 }
 .our-doctors .container .doctor-card p {
-  font-family: "Roboto";
+  font: 14px/22px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
   text-align: center;
   color: #999999;
 }
@@ -1974,38 +1900,42 @@ body {
   background-color: #40A3F8;
   border-radius: 5px;
   text-decoration: none;
-  font-family: "Roboto";
+  font: 18px/30px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
   text-align: center;
   color: #FFFFFF;
-  text-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+  text-shadow: 0 4px 22px rgba(0, 0, 0, 0.05);
 }
 .our-doctors .container h3 {
   margin-bottom: 16px;
-  font-family: "Roboto";
+  font: 42px/49px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 42px;
-  line-height: 49px;
   letter-spacing: 0.02em;
   color: #3D3D3F;
+}
+@media screen and (max-width: 391px) {
+  .our-doctors .container h3 {
+    font-size: 40px;
+  }
 }
 .our-doctors .container img {
   margin-bottom: 16px;
 }
 .our-doctors .container p {
   margin-bottom: 17px;
-  font-family: "Roboto";
+  font: 18px/30px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
   text-align: center;
   letter-spacing: 0.02em;
   color: rgba(61, 61, 63, 0.7);
+}
+@media screen and (max-width: 391px) {
+  .our-doctors .container p {
+    font-size: 16px;
+  }
 }
 .our-doctors .container .row .doctor-card {
   max-width: 267px;
@@ -2070,22 +2000,28 @@ body {
   }
 }
 .mobile-apps .container .main-banner-text h3 {
-  font-family: "Roboto";
+  font: 42px/60px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 42px;
-  line-height: 60px;
   letter-spacing: 0.02em;
   color: #3D3D3F;
 }
+@media screen and (max-width: 391px) {
+  .mobile-apps .container .main-banner-text h3 {
+    font-size: 40px;
+  }
+}
 .mobile-apps .container .main-banner-text p {
-  font-family: "Roboto";
+  font: 18px/30px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
   letter-spacing: 0.02em;
   color: rgba(61, 61, 63, 0.7);
+}
+@media screen and (max-width: 391px) {
+  .mobile-apps .container .main-banner-text p {
+    font-size: 16px;
+  }
 }
 
 .owl-carousel .owl-nav button.owl-next {
@@ -2093,7 +2029,7 @@ body {
   height: 33px;
   position: absolute;
   background-color: #40A3F8;
-  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
   top: 160px;
   right: -65px;
@@ -2125,7 +2061,7 @@ body {
   height: 33px;
   position: absolute;
   background: linear-gradient(133.16deg, rgba(154, 208, 255, 0.1065) 0%, rgba(111, 188, 255, 0.1005) 112.21%);
-  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
   top: 160px;
   left: -65px;
@@ -2153,15 +2089,18 @@ body {
 }
 
 .clients-opinion h4 {
-  font-family: "Roboto";
+  font: 42px/49px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 42px;
-  line-height: 49px;
   letter-spacing: 0.02em;
   color: #3D3D3F;
   margin-bottom: 93px;
   text-align: center;
+}
+@media screen and (max-width: 391px) {
+  .clients-opinion h4 {
+    font-size: 40px;
+  }
 }
 @media screen and (max-width: 1201px) {
   .clients-opinion .container {
@@ -2200,7 +2139,7 @@ body {
   flex-direction: column;
   justify-content: end;
   background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
-  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.05);
   border-radius: 15px;
   padding: 0 0 30px 30px;
 }
@@ -2214,30 +2153,24 @@ body {
   right: 41px;
 }
 .clients-opinion .container .owl-carousel .item-1 h5 {
-  font-family: "Roboto";
+  font: 20px/55px "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 55px;
   color: #3D3D3F;
   margin-bottom: -14px;
 }
 .clients-opinion .container .owl-carousel .item-1 p:first-of-type {
-  font-family: "Ubuntu";
+  font: 14px/25px "Ubuntu";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 25px;
   background: linear-gradient(90.26deg, #47C2FF 0.21%, rgba(99, 203, 254, 0.65) 97.38%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .clients-opinion .container .owl-carousel .item-1 p:last-of-type {
-  font-family: "Roboto";
+  font: 16px/25px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 25px;
   color: #454D5D;
   max-width: 305px;
   height: 156px;
@@ -2269,7 +2202,7 @@ body {
   flex-direction: column;
   justify-content: end;
   background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
-  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.05);
   border-radius: 15px;
   padding: 0 0 30px 30px;
 }
@@ -2283,31 +2216,25 @@ body {
   right: 41px;
 }
 .clients-opinion .container .owl-carousel .item-2 h5 {
-  font-family: "Roboto";
+  font: 20px/55px "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 55px;
   color: #3D3D3F;
   margin-bottom: -14px;
 }
 .clients-opinion .container .owl-carousel .item-2 p:first-of-type {
-  font-family: "Ubuntu";
+  font: 14px/25px "Ubuntu";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 25px;
   background: linear-gradient(90.26deg, #47C2FF 0.21%, rgba(99, 203, 254, 0.65) 97.38%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
 }
 .clients-opinion .container .owl-carousel .item-2 p:last-of-type {
-  font-family: "Roboto";
+  font: 16px/25px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 25px;
   color: #454D5D;
   max-width: 305px;
   height: 156px;
@@ -2339,7 +2266,7 @@ body {
   flex-direction: column;
   justify-content: end;
   background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
-  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.05);
   border-radius: 15px;
   padding: 0 0 30px 30px;
 }
@@ -2353,31 +2280,25 @@ body {
   right: 41px;
 }
 .clients-opinion .container .owl-carousel .item-3 h5 {
-  font-family: "Roboto";
+  font: 20px/55px "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 55px;
   color: #3D3D3F;
   margin-bottom: -14px;
 }
 .clients-opinion .container .owl-carousel .item-3 p:first-of-type {
-  font-family: "Ubuntu";
+  font: 14px/25px "Ubuntu";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 25px;
   background: linear-gradient(90.26deg, #47C2FF 0.21%, rgba(99, 203, 254, 0.65) 97.38%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
 }
 .clients-opinion .container .owl-carousel .item-3 p:last-of-type {
-  font-family: "Roboto";
+  font: 16px/25px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 25px;
   color: #454D5D;
   max-width: 305px;
   height: 156px;
@@ -2442,11 +2363,9 @@ body {
 }
 .booking-appoinment .container .text h3 {
   margin-bottom: 21px;
-  font-family: "Roboto";
+  font: 40px/47px "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 47px;
   text-transform: capitalize;
   color: #FFFFFF;
 }
@@ -2473,11 +2392,9 @@ body {
   background-color: #FFFFFF;
   box-shadow: 0 4px 22px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
-  font-family: "Roboto";
+  font: 18px/21px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
   font-feature-settings: "cpsp" on;
   color: #40A3F8;
 }
@@ -2487,9 +2404,10 @@ body {
     padding: 12px 13px 11px 14px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 391px) {
   .booking-appoinment .container .text a {
     padding: 10px 11px 9px 12px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 361px) {
@@ -2571,7 +2489,7 @@ footer .container:first-of-type:after {
   height: 1px;
   position: absolute;
   bottom: 22px;
-  left: 0px;
+  left: 0;
 }
 footer .container:last-of-type {
   padding: 5px 0 30px;
@@ -2599,7 +2517,7 @@ footer .container .logo-info img {
   margin-bottom: 12px;
 }
 footer .container .logo-info p {
-  font-family: "DM Sans";
+  font: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2626,19 +2544,15 @@ footer .container .category ul li {
   margin-bottom: 24px;
 }
 footer .container .category ul li:first-of-type {
-  font-family: "Roboto";
+  font: 16px/16px "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 16px;
   color: #323232;
 }
 footer .container .category ul li a {
-  font-family: "Roboto";
+  font: 14px/14px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
   color: #646464;
   text-decoration: none;
 }
@@ -2650,19 +2564,15 @@ footer .container .about ul li {
   margin-bottom: 24px;
 }
 footer .container .about ul li:first-of-type {
-  font-family: "Roboto";
+  font: 16px/16px "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 16px;
   color: #323232;
 }
 footer .container .about ul li a {
-  font-family: "Roboto";
+  font: 14px/14px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
   color: #646464;
   text-decoration: none;
 }
@@ -2712,16 +2622,14 @@ footer .subscribe {
   margin-top: 11px;
 }
 footer .subscribe h5 {
-  font-family: "DM Sans";
+  font: 16px/16px "DM Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 16px;
   color: #323232;
   margin-bottom: 19px;
 }
 footer .subscribe p {
-  font-family: "DM Sans";
+  font: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2733,11 +2641,9 @@ footer form {
   min-height: 92px;
   max-width: 292px;
   background: transparent;
-  font-family: "Roboto";
+  font: 14px/16px "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
   color: rgba(117, 117, 117, 0.65);
 }
 footer form input {
@@ -2753,20 +2659,16 @@ footer form button {
   background: #40A3F8;
   border: 1.1px solid #E1E2E4;
   border-radius: 5px;
-  font-family: "Roboto";
+  font: 14px/16px "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
 footer .license-info .rights {
-  font-family: "DM Sans";
+  font: 14px/14px "DM Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
   color: #646464;
 }
 @media screen and (max-width: 321px) {
@@ -2776,11 +2678,9 @@ footer .license-info .rights {
 }
 footer .license-info .privacy a {
   text-decoration: none;
-  font-family: "DM Sans";
+  font: 14px/14px "DM Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
   color: #646464;
 }
 footer .license-info .privacy a:first-of-type {

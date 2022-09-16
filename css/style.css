@@ -943,9 +943,9 @@ body {
     left: 156px;
   }
 }
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 321px) {
   .steps .container .row .steps-item .steps-icon-1 {
-    left: 139px;
+    left: 136px;
   }
 }
 @media screen and (max-width: 303px) {
@@ -1154,9 +1154,9 @@ body {
     left: 156px;
   }
 }
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 321px) {
   .steps .container .row .steps-item .steps-icon-3 {
-    left: 139px;
+    left: 136px;
   }
 }
 @media screen and (max-width: 303px) {
@@ -1488,7 +1488,7 @@ body {
 @media screen and (max-width: 361px) {
   .best-service .container .row .doctor-banner .doctor-bg {
     left: 20px;
-    top: 47px;
+    top: 53px;
   }
 }
 @media screen and (max-width: 281px) {
@@ -2133,8 +2133,8 @@ body {
 }
 .clients-opinion .container .owl-carousel .item-1 {
   position: relative;
-  width: 370px;
-  height: 347px;
+  width: 335px;
+  height: 340px;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -2159,6 +2159,11 @@ body {
   color: #3D3D3F;
   margin-bottom: -14px;
 }
+@media screen and (max-width: 321px) {
+  .clients-opinion .container .owl-carousel .item-1 h5 {
+    font-size: 18px;
+  }
+}
 .clients-opinion .container .owl-carousel .item-1 p:first-of-type {
   font: 14px/25px "Ubuntu";
   font-style: normal;
@@ -2166,6 +2171,11 @@ body {
   background: linear-gradient(90.26deg, #47C2FF 0.21%, rgba(99, 203, 254, 0.65) 97.38%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 321px) {
+  .clients-opinion .container .owl-carousel .item-1 p:first-of-type {
+    font-size: 12px;
+  }
 }
 .clients-opinion .container .owl-carousel .item-1 p:last-of-type {
   font: 16px/25px "Roboto";
@@ -2175,12 +2185,22 @@ body {
   max-width: 305px;
   height: 156px;
 }
+@media screen and (max-width: 321px) {
+  .clients-opinion .container .owl-carousel .item-1 p:last-of-type {
+    font-size: 14px;
+  }
+}
 .clients-opinion .container .owl-carousel .item-1 .client-photo-1 {
   height: 63px;
   width: 63px;
   position: absolute;
   top: 7px;
   left: 142px;
+}
+@media screen and (max-width: 321px) {
+  .clients-opinion .container .owl-carousel .item-1 .client-photo-1 {
+    left: 115px;
+  }
 }
 .clients-opinion .container .owl-carousel .item-1 .grade {
   width: 103px;
@@ -2196,8 +2216,8 @@ body {
 }
 .clients-opinion .container .owl-carousel .item-2 {
   position: relative;
-  width: 370px;
-  height: 347px;
+  width: 335px;
+  height: 340px;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -2222,6 +2242,11 @@ body {
   color: #3D3D3F;
   margin-bottom: -14px;
 }
+@media screen and (max-width: 321px) {
+  .clients-opinion .container .owl-carousel .item-2 h5 {
+    font-size: 18px;
+  }
+}
 .clients-opinion .container .owl-carousel .item-2 p:first-of-type {
   font: 14px/25px "Ubuntu";
   font-style: normal;
@@ -2231,6 +2256,11 @@ body {
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
 }
+@media screen and (max-width: 321px) {
+  .clients-opinion .container .owl-carousel .item-2 p:first-of-type {
+    font-size: 12px;
+  }
+}
 .clients-opinion .container .owl-carousel .item-2 p:last-of-type {
   font: 16px/25px "Roboto";
   font-style: normal;
@@ -2239,12 +2269,22 @@ body {
   max-width: 305px;
   height: 156px;
 }
+@media screen and (max-width: 321px) {
+  .clients-opinion .container .owl-carousel .item-2 p:last-of-type {
+    font-size: 14px;
+  }
+}
 .clients-opinion .container .owl-carousel .item-2 .client-photo-2 {
   height: 63px;
   width: 63px;
   position: absolute;
   top: 7px;
   left: 142px;
+}
+@media screen and (max-width: 321px) {
+  .clients-opinion .container .owl-carousel .item-2 .client-photo-2 {
+    left: 115px;
+  }
 }
 .clients-opinion .container .owl-carousel .item-2 .grade {
   width: 103px;
@@ -2260,8 +2300,8 @@ body {
 }
 .clients-opinion .container .owl-carousel .item-3 {
   position: relative;
-  width: 370px;
-  height: 347px;
+  width: 335px;
+  height: 340px;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -2286,6 +2326,11 @@ body {
   color: #3D3D3F;
   margin-bottom: -14px;
 }
+@media screen and (max-width: 321px) {
+  .clients-opinion .container .owl-carousel .item-3 h5 {
+    font-size: 18px;
+  }
+}
 .clients-opinion .container .owl-carousel .item-3 p:first-of-type {
   font: 14px/25px "Ubuntu";
   font-style: normal;
@@ -2295,6 +2340,11 @@ body {
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
 }
+@media screen and (max-width: 321px) {
+  .clients-opinion .container .owl-carousel .item-3 p:first-of-type {
+    font-size: 12px;
+  }
+}
 .clients-opinion .container .owl-carousel .item-3 p:last-of-type {
   font: 16px/25px "Roboto";
   font-style: normal;
@@ -2303,12 +2353,22 @@ body {
   max-width: 305px;
   height: 156px;
 }
+@media screen and (max-width: 321px) {
+  .clients-opinion .container .owl-carousel .item-3 p:last-of-type {
+    font-size: 14px;
+  }
+}
 .clients-opinion .container .owl-carousel .item-3 .client-photo-3 {
   height: 63px;
   width: 63px !important;
   position: absolute;
   top: 7px;
   left: 142px;
+}
+@media screen and (max-width: 321px) {
+  .clients-opinion .container .owl-carousel .item-3 .client-photo-3 {
+    left: 115px;
+  }
 }
 .clients-opinion .container .owl-carousel .item-3 .grade {
   width: 103px;
@@ -2381,7 +2441,7 @@ body {
     line-height: 32px;
   }
 }
-@media screen and (max-width: 281px) {
+@media screen and (max-width: 321px) {
   .booking-appoinment .container .text h3 {
     font-size: 16px;
     line-height: 23px;
@@ -2461,6 +2521,11 @@ body {
 @media screen and (max-width: 376px) {
   .booking-appoinment .container .booking-appoinment-dr img {
     top: -24px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .booking-appoinment .container .booking-appoinment-dr img {
+    top: -11px;
   }
 }
 @media screen and (max-width: 281px) {

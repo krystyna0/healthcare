@@ -878,8 +878,8 @@ body {
           @include max-screen(361px) {
             left: 156px;
           }
-          @include max-screen(325px) {
-            left: 139px;
+          @include max-screen(321px) {
+            left: 136px;
           }
           @include max-screen(303px) {
             left: 128px;
@@ -1014,8 +1014,8 @@ body {
           @include max-screen(361px) {
             left: 156px;
           }
-          @include max-screen(325px) {
-            left: 139px;
+          @include max-screen(321px) {
+            left: 136px;
           }
           @include max-screen(303px) {
             left: 128px;
@@ -1351,7 +1351,7 @@ body {
           }
           @include max-screen(361px){
             left: 20px;
-            top: 47px;
+            top: 53px;
           }
           @include max-screen(281px){
             left: -8px;
@@ -1980,8 +1980,8 @@ body {
 
       .item-1 {
         position: relative;
-        width: 370px;
-        height: 347px;
+        width: 335px;
+        height: 340px;
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -2008,6 +2008,9 @@ body {
           font-weight: 700;
           color: #3D3D3F;
           margin-bottom: -14px;
+          @include max-screen(321px){
+            font-size: 18px;
+          }
         }
 
         p {
@@ -2018,6 +2021,9 @@ body {
             background: linear-gradient(90.26deg, #47C2FF 0.21%, rgba(99, 203, 254, 0.65) 97.38%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            @include max-screen(321px){
+              font-size: 12px;
+            }
           }
 
           &:last-of-type {
@@ -2027,6 +2033,9 @@ body {
             color: #454D5D;
             max-width: 305px;
             height: 156px;
+            @include max-screen(321px){
+              font-size: 14px;
+            }
           }
         }
 
@@ -2036,6 +2045,9 @@ body {
           position: absolute;
           top: 7px;
           left: 142px;
+          @include max-screen(321px){
+            left: 115px;
+          }
         }
 
         .grade {
@@ -2052,8 +2064,8 @@ body {
 
       .item-2 {
         position: relative;
-        width: 370px;
-        height: 347px;
+        width: 335px;
+        height: 340px;
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -2080,6 +2092,9 @@ body {
           font-weight: 700;
           color: #3D3D3F;
           margin-bottom: -14px;
+          @include max-screen(321px){
+            font-size: 18px;
+          }
         }
 
         p {
@@ -2091,6 +2106,9 @@ body {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-fill-color: transparent;
+            @include max-screen(321px){
+              font-size: 12px;
+            }
           }
 
           &:last-of-type {
@@ -2100,6 +2118,9 @@ body {
             color: #454D5D;
             max-width: 305px;
             height: 156px;
+            @include max-screen(321px){
+              font-size: 14px;
+            }
           }
         }
 
@@ -2109,6 +2130,9 @@ body {
           position: absolute;
           top: 7px;
           left: 142px;
+          @include max-screen(321px){
+            left: 115px;
+          }
         }
 
         .grade {
@@ -2125,8 +2149,8 @@ body {
 
       .item-3 {
         position: relative;
-        width: 370px;
-        height: 347px;
+        width: 335px;
+        height: 340px;
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -2153,6 +2177,9 @@ body {
           font-weight: 700;
           color: #3D3D3F;
           margin-bottom: -14px;
+          @include max-screen(321px){
+            font-size: 18px;
+          }
         }
 
         p {
@@ -2164,6 +2191,9 @@ body {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-fill-color: transparent;
+            @include max-screen(321px){
+              font-size: 12px;
+            }
           }
 
           &:last-of-type {
@@ -2173,6 +2203,9 @@ body {
             color: #454D5D;
             max-width: 305px;
             height: 156px;
+            @include max-screen(321px){
+              font-size: 14px;
+            }
           }
         }
 
@@ -2182,6 +2215,9 @@ body {
           position: absolute;
           top: 7px;
           left: 142px;
+          @include max-screen(321px){
+            left: 115px;
+          }
         }
 
         .grade {
@@ -2245,7 +2281,7 @@ body {
           margin-bottom: 10px;
           line-height: 32px;
         }
-        @include max-screen(281px){
+        @include max-screen(321px){
           font-size: 16px;
           line-height: 23px;
         }
@@ -2307,6 +2343,9 @@ body {
         }
         @include max-screen(376px){
           top: -24px;
+        }
+        @include max-screen(321px){
+          top: -11px;
         }
         @include max-screen(281px){
           left: -30px;

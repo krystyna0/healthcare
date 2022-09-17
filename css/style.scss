@@ -804,8 +804,8 @@ body {
   @include max-screen(1025px) {
     margin-bottom: 158px;
   }
-  @include max-screen(845px){
-    margin-top: 110px;
+  @include max-screen(897px){
+    margin-top: 100px;
   }
   @include max-screen(769px){
     margin-top: 150px;
@@ -849,11 +849,8 @@ body {
           @include max-screen(993px) {
             left: 136px;
           }
-          @include max-screen(845px) {
+          @include max-screen(897px){
             left: 334px;
-          }
-          @include max-screen(821px) {
-            left: 335px;
           }
           @include max-screen(767px) {
             left: 247px;
@@ -919,10 +916,7 @@ body {
           @include max-screen(993px) {
             left: 136px;
           }
-          @include max-screen(845px) {
-            left: 335px;
-          }
-          @include max-screen(821px) {
+          @include max-screen(897px){
             left: 335px;
           }
           @include max-screen(767px) {
@@ -989,7 +983,7 @@ body {
           @include max-screen(993px) {
             left: 136px;;
           }
-          @include max-screen(845px) {
+          @include max-screen(897px){
             left: 334px;
           }
           @include max-screen(821px) {
@@ -1122,7 +1116,7 @@ body {
           top: 145px;
           left: 110px;
         }
-        @include max-screen(845px){
+        @include max-screen(897px){
           top: 282px;
           left: -37px;
         }
@@ -1375,8 +1369,13 @@ body {
           @include max-screen(1200px) {
             left: -48px;
           }
-          @include max-screen(845px){
+          @include max-screen(897px){
             left: 54px;
+          }
+          @include max-screen(668px){
+            max-width: 100%;
+            left: 36px;
+            top: -78px;
           }
           @include max-screen(429px) {
             left: -5px;
@@ -1403,8 +1402,12 @@ body {
           @include max-screen(1200px) {
             left: -48px;
           }
-          @include max-screen(845px){
+          @include max-screen(897px){
             left: 54px;
+          }
+          @include max-screen(668px){
+            max-width: 100%;
+            left: 36px;
           }
           @include max-screen(429px) {
             left: -5px;
@@ -1427,8 +1430,12 @@ body {
           @include max-screen(1200px) {
             left: -48px;
           }
-          @include max-screen(845px){
+          @include max-screen(897px){
             left: 54px;
+          }
+          @include max-screen(668px){
+            max-width: 100%;
+            left: 36px;
           }
           @include max-screen(429px) {
             left: -5px;
@@ -1451,7 +1458,7 @@ body {
           @include max-screen(1200px) {
             left: -48px;
           }
-          @include max-screen(845px){
+          @include max-screen(897px){
             left: 120px;
             top: 17px;
           }
@@ -1484,10 +1491,10 @@ body {
           @include max-screen(1025px) {
             right: 10px;
           }
-          @include max-screen(845px){
+          @include max-screen(897px){
             right: 47px;
           }
-          @include max-screen(581px) {
+          @include max-screen(668px) {
             display: none;
           }
         }
@@ -1883,7 +1890,7 @@ body {
   }
 
   .apps-bg {
-    @include max-screen(845px){
+    @include max-screen(897px){
       width: 800px;
     }
     @include max-screen(821px) {
@@ -1891,6 +1898,9 @@ body {
     }
     @include max-screen(769px) {
       width: 760px;
+    }
+    @include max-screen(678px){
+      width: 620px;
     }
     @include max-screen(429px){
       width: 350px;
@@ -2305,7 +2315,7 @@ body {
     background-image: url("../images/booking-appoinment-texture.png");
     background-color: #40A3F8;
     background-size: 78%;
-    @include max-screen(845px){
+    @include max-screen(897px){
       height: 253px;
     }
     @include max-screen(821px) {
@@ -2323,7 +2333,7 @@ body {
     .text {
       padding-top: 82px;
       padding-left: 118px;
-      @include max-screen(845px){
+      @include max-screen(897px){
         padding-top: 44px;
         padding-left: 80px;
       }
@@ -2339,10 +2349,7 @@ body {
         font-weight: 700;
         text-transform: capitalize;
         color: #FFFFFF;
-        @include max-screen(845px){
-          font-size: 30px;
-        }
-        @include max-screen(821px) {
+        @include max-screen(897px){
           font-size: 30px;
         }
         @include max-screen(429px){

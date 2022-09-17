@@ -837,9 +837,9 @@ body {
     margin-bottom: 158px;
   }
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 897px) {
   .steps {
-    margin-top: 110px;
+    margin-top: 100px;
   }
 }
 @media screen and (max-width: 769px) {
@@ -890,14 +890,9 @@ body {
     left: 136px;
   }
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 897px) {
   .steps .container .row .steps-item .steps-icon-1 {
     left: 334px;
-  }
-}
-@media screen and (max-width: 821px) {
-  .steps .container .row .steps-item .steps-icon-1 {
-    left: 335px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -999,12 +994,7 @@ body {
     left: 136px;
   }
 }
-@media screen and (max-width: 845px) {
-  .steps .container .row .steps-item .steps-icon-2 {
-    left: 335px;
-  }
-}
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 897px) {
   .steps .container .row .steps-item .steps-icon-2 {
     left: 335px;
   }
@@ -1107,7 +1097,7 @@ body {
     left: 136px;
   }
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 897px) {
   .steps .container .row .steps-item .steps-icon-3 {
     left: 334px;
   }
@@ -1277,7 +1267,7 @@ body {
     left: 110px;
   }
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 897px) {
   .best-service .container .row .doctor-review {
     top: 282px;
     left: -37px;
@@ -1519,9 +1509,16 @@ body {
     left: -48px;
   }
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 897px) {
   .best-service .container .row .doctor-banner .doctor-bg {
     left: 54px;
+  }
+}
+@media screen and (max-width: 668px) {
+  .best-service .container .row .doctor-banner .doctor-bg {
+    max-width: 100%;
+    left: 36px;
+    top: -78px;
   }
 }
 @media screen and (max-width: 429px) {
@@ -1558,9 +1555,15 @@ body {
     left: -48px;
   }
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 897px) {
   .best-service .container .row .doctor-banner .doctor-bg-circle {
     left: 54px;
+  }
+}
+@media screen and (max-width: 668px) {
+  .best-service .container .row .doctor-banner .doctor-bg-circle {
+    max-width: 100%;
+    left: 36px;
   }
 }
 @media screen and (max-width: 429px) {
@@ -1593,9 +1596,15 @@ body {
     left: -48px;
   }
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 897px) {
   .best-service .container .row .doctor-banner .shape-bg {
     left: 54px;
+  }
+}
+@media screen and (max-width: 668px) {
+  .best-service .container .row .doctor-banner .shape-bg {
+    max-width: 100%;
+    left: 36px;
   }
 }
 @media screen and (max-width: 429px) {
@@ -1628,7 +1637,7 @@ body {
     left: -48px;
   }
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 897px) {
   .best-service .container .row .doctor-banner .elips-bg {
     left: 120px;
     top: 17px;
@@ -1672,12 +1681,12 @@ body {
     right: 10px;
   }
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 897px) {
   .best-service .container .row .doctor-banner .user-feedback {
     right: 47px;
   }
 }
-@media screen and (max-width: 581px) {
+@media screen and (max-width: 668px) {
   .best-service .container .row .doctor-banner .user-feedback {
     display: none;
   }
@@ -2045,7 +2054,7 @@ body {
     margin-bottom: 180px;
   }
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 897px) {
   .mobile-apps .apps-bg {
     width: 800px;
   }
@@ -2058,6 +2067,11 @@ body {
 @media screen and (max-width: 769px) {
   .mobile-apps .apps-bg {
     width: 760px;
+  }
+}
+@media screen and (max-width: 678px) {
+  .mobile-apps .apps-bg {
+    width: 620px;
   }
 }
 @media screen and (max-width: 429px) {
@@ -2477,7 +2491,7 @@ body {
   background-color: #40A3F8;
   background-size: 78%;
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 897px) {
   .booking-appoinment .container {
     height: 253px;
   }
@@ -2503,7 +2517,7 @@ body {
   padding-top: 82px;
   padding-left: 118px;
 }
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 897px) {
   .booking-appoinment .container .text {
     padding-top: 44px;
     padding-left: 80px;
@@ -2523,12 +2537,7 @@ body {
   text-transform: capitalize;
   color: #FFFFFF;
 }
-@media screen and (max-width: 845px) {
-  .booking-appoinment .container .text h3 {
-    font-size: 30px;
-  }
-}
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 897px) {
   .booking-appoinment .container .text h3 {
     font-size: 30px;
   }

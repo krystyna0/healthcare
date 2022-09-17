@@ -451,9 +451,6 @@ body {
   @include max-screen(1024px) {
     height: 100vh;
   }
-  @include max-screen(821px){
-    height: 65vh;
-  }
 
   .container {
     .container {

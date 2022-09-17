@@ -832,7 +832,7 @@ body {
     margin-bottom: 158px;
   }
 }
-@media screen and (max-width: 897px) {
+@media screen and (max-width: 916px) {
   .steps {
     margin-top: 100px;
   }
@@ -885,7 +885,7 @@ body {
     left: 136px;
   }
 }
-@media screen and (max-width: 897px) {
+@media screen and (max-width: 916px) {
   .steps .container .row .steps-item .steps-icon-1 {
     left: 334px;
   }
@@ -989,7 +989,7 @@ body {
     left: 136px;
   }
 }
-@media screen and (max-width: 897px) {
+@media screen and (max-width: 916px) {
   .steps .container .row .steps-item .steps-icon-2 {
     left: 335px;
   }
@@ -1092,7 +1092,7 @@ body {
     left: 136px;
   }
 }
-@media screen and (max-width: 897px) {
+@media screen and (max-width: 916px) {
   .steps .container .row .steps-item .steps-icon-3 {
     left: 334px;
   }
@@ -1262,7 +1262,7 @@ body {
     left: 110px;
   }
 }
-@media screen and (max-width: 897px) {
+@media screen and (max-width: 916px) {
   .best-service .container .row .doctor-review {
     top: 282px;
     left: -37px;
@@ -1504,7 +1504,7 @@ body {
     left: -48px;
   }
 }
-@media screen and (max-width: 897px) {
+@media screen and (max-width: 916px) {
   .best-service .container .row .doctor-banner .doctor-bg {
     left: 54px;
   }
@@ -1550,7 +1550,7 @@ body {
     left: -48px;
   }
 }
-@media screen and (max-width: 897px) {
+@media screen and (max-width: 916px) {
   .best-service .container .row .doctor-banner .doctor-bg-circle {
     left: 54px;
   }
@@ -1591,7 +1591,7 @@ body {
     left: -48px;
   }
 }
-@media screen and (max-width: 897px) {
+@media screen and (max-width: 916px) {
   .best-service .container .row .doctor-banner .shape-bg {
     left: 54px;
   }
@@ -1632,7 +1632,7 @@ body {
     left: -48px;
   }
 }
-@media screen and (max-width: 897px) {
+@media screen and (max-width: 916px) {
   .best-service .container .row .doctor-banner .elips-bg {
     left: 120px;
     top: 17px;
@@ -1676,7 +1676,7 @@ body {
     right: 10px;
   }
 }
-@media screen and (max-width: 897px) {
+@media screen and (max-width: 916px) {
   .best-service .container .row .doctor-banner .user-feedback {
     right: 47px;
   }
@@ -2067,6 +2067,11 @@ body {
 @media screen and (max-width: 769px) {
   .mobile-apps .apps-bg {
     width: 760px;
+  }
+}
+@media screen and (max-width: 741px) {
+  .mobile-apps .apps-bg {
+    width: 720px;
   }
 }
 @media screen and (max-width: 678px) {
@@ -2586,7 +2591,7 @@ body {
 }
 @media screen and (max-width: 391px) {
   .booking-appoinment .container .text a {
-    padding: 10px 11px 9px 12px;
+    padding: 3px 7px 4px 10px;
     font-size: 12px;
   }
 }

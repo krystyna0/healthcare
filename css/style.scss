@@ -801,7 +801,7 @@ body {
   @include max-screen(1025px) {
     margin-bottom: 158px;
   }
-  @include max-screen(897px){
+  @include max-screen(916px){
     margin-top: 100px;
   }
   @include max-screen(769px){
@@ -846,7 +846,7 @@ body {
           @include max-screen(993px) {
             left: 136px;
           }
-          @include max-screen(897px){
+          @include max-screen(916px){
             left: 334px;
           }
           @include max-screen(767px) {
@@ -913,7 +913,7 @@ body {
           @include max-screen(993px) {
             left: 136px;
           }
-          @include max-screen(897px){
+          @include max-screen(916px){
             left: 335px;
           }
           @include max-screen(767px) {
@@ -980,7 +980,7 @@ body {
           @include max-screen(993px) {
             left: 136px;;
           }
-          @include max-screen(897px){
+          @include max-screen(916px){
             left: 334px;
           }
           @include max-screen(821px) {
@@ -1113,7 +1113,7 @@ body {
           top: 145px;
           left: 110px;
         }
-        @include max-screen(897px){
+        @include max-screen(916px){
           top: 282px;
           left: -37px;
         }
@@ -1366,7 +1366,7 @@ body {
           @include max-screen(1200px) {
             left: -48px;
           }
-          @include max-screen(897px){
+          @include max-screen(916px){
             left: 54px;
           }
           @include max-screen(668px){
@@ -1399,7 +1399,7 @@ body {
           @include max-screen(1200px) {
             left: -48px;
           }
-          @include max-screen(897px){
+          @include max-screen(916px){
             left: 54px;
           }
           @include max-screen(668px){
@@ -1427,7 +1427,7 @@ body {
           @include max-screen(1200px) {
             left: -48px;
           }
-          @include max-screen(897px){
+          @include max-screen(916px){
             left: 54px;
           }
           @include max-screen(668px){
@@ -1455,7 +1455,7 @@ body {
           @include max-screen(1200px) {
             left: -48px;
           }
-          @include max-screen(897px){
+          @include max-screen(916px){
             left: 120px;
             top: 17px;
           }
@@ -1488,7 +1488,7 @@ body {
           @include max-screen(1025px) {
             right: 10px;
           }
-          @include max-screen(897px){
+          @include max-screen(916px){
             right: 47px;
           }
           @include max-screen(741px){
@@ -1898,6 +1898,9 @@ body {
     }
     @include max-screen(769px) {
       width: 760px;
+    }
+    @include max-screen(741px){
+      width: 720px;
     }
     @include max-screen(678px){
       width: 620px;
@@ -2388,7 +2391,7 @@ body {
           padding: 12px 13px 11px 14px;
         }
         @include max-screen(391px){
-          padding: 10px 11px 9px 12px;
+          padding: 3px 7px 4px 10px;
           font-size: 12px;
         }
         @include max-screen(361px){

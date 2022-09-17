@@ -451,6 +451,9 @@ body {
   @include max-screen(1024px) {
     height: 100vh;
   }
+  @include max-screen(821px){
+    height: 65vh;
+  }
 
   .container {
     .container {
@@ -801,6 +804,9 @@ body {
   @include max-screen(1025px) {
     margin-bottom: 158px;
   }
+  @include max-screen(845px){
+    margin-top: 110px;
+  }
   @include max-screen(769px){
     margin-top: 150px;
   }
@@ -842,6 +848,9 @@ body {
           }
           @include max-screen(993px) {
             left: 136px;
+          }
+          @include max-screen(845px) {
+            left: 334px;
           }
           @include max-screen(821px) {
             left: 335px;
@@ -910,6 +919,9 @@ body {
           @include max-screen(993px) {
             left: 136px;
           }
+          @include max-screen(845px) {
+            left: 335px;
+          }
           @include max-screen(821px) {
             left: 335px;
           }
@@ -976,6 +988,9 @@ body {
           }
           @include max-screen(993px) {
             left: 136px;;
+          }
+          @include max-screen(845px) {
+            left: 334px;
           }
           @include max-screen(821px) {
             left: 335px;
@@ -1076,7 +1091,7 @@ body {
 
       .doctor-banner-container {
         @include max-screen(1025px) {
-          display: flex;
+/*          display: flex;*/
         }
         @include max-screen(821px) {
           justify-content: end;
@@ -1106,6 +1121,10 @@ body {
         @include max-screen(1025px) {
           top: 145px;
           left: 110px;
+        }
+        @include max-screen(845px){
+          top: 282px;
+          left: -37px;
         }
         @include max-screen(821px){
           min-width: 270px;
@@ -1356,6 +1375,9 @@ body {
           @include max-screen(1200px) {
             left: -48px;
           }
+          @include max-screen(845px){
+            left: 54px;
+          }
           @include max-screen(429px) {
             left: -5px;
             top: -19px;
@@ -1381,6 +1403,9 @@ body {
           @include max-screen(1200px) {
             left: -48px;
           }
+          @include max-screen(845px){
+            left: 54px;
+          }
           @include max-screen(429px) {
             left: -5px;
             max-width: 100%;
@@ -1402,6 +1427,9 @@ body {
           @include max-screen(1200px) {
             left: -48px;
           }
+          @include max-screen(845px){
+            left: 54px;
+          }
           @include max-screen(429px) {
             left: -5px;
             max-width: 100%;
@@ -1422,6 +1450,10 @@ body {
           position: absolute;
           @include max-screen(1200px) {
             left: -48px;
+          }
+          @include max-screen(845px){
+            left: 120px;
+            top: 17px;
           }
           @include max-screen(429px) {
             left: 42px;
@@ -1451,6 +1483,9 @@ body {
           right: -232px;
           @include max-screen(1025px) {
             right: 10px;
+          }
+          @include max-screen(845px){
+            right: 47px;
           }
           @include max-screen(581px) {
             display: none;
@@ -1848,6 +1883,9 @@ body {
   }
 
   .apps-bg {
+    @include max-screen(845px){
+      width: 800px;
+    }
     @include max-screen(821px) {
       width: 800px;
     }
@@ -2267,6 +2305,9 @@ body {
     background-image: url("../images/booking-appoinment-texture.png");
     background-color: #40A3F8;
     background-size: 78%;
+    @include max-screen(845px){
+      height: 253px;
+    }
     @include max-screen(821px) {
       height: 286px;
     }
@@ -2282,6 +2323,10 @@ body {
     .text {
       padding-top: 82px;
       padding-left: 118px;
+      @include max-screen(845px){
+        padding-top: 44px;
+        padding-left: 80px;
+      }
       @include max-screen(429px){
         padding-left: 15px;
         padding-top: 10px;
@@ -2294,6 +2339,9 @@ body {
         font-weight: 700;
         text-transform: capitalize;
         color: #FFFFFF;
+        @include max-screen(845px){
+          font-size: 30px;
+        }
         @include max-screen(821px) {
           font-size: 30px;
         }

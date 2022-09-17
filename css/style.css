@@ -1686,6 +1686,11 @@ body {
     right: 47px;
   }
 }
+@media screen and (max-width: 741px) {
+  .best-service .container .row .doctor-banner .user-feedback {
+    right: -125px;
+  }
+}
 @media screen and (max-width: 668px) {
   .best-service .container .row .doctor-banner .user-feedback {
     display: none;
@@ -2572,6 +2577,11 @@ body {
   transform: scale(1.1);
   transition: all 1s ease;
   -webkit-transition: all 1s ease;
+}
+@media screen and (max-width: 741px) {
+  .booking-appoinment .container .text a {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 429px) {
   .booking-appoinment .container .text a {

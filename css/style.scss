@@ -1494,6 +1494,9 @@ body {
           @include max-screen(897px){
             right: 47px;
           }
+          @include max-screen(741px){
+            right: -125px;
+          }
           @include max-screen(668px) {
             display: none;
           }
@@ -2379,6 +2382,9 @@ body {
           transform: scale(1.1);
           transition: all 1s ease;
           -webkit-transition: all 1s ease;
+        }
+        @include max-screen(741px){
+          font-size: 14px;
         }
         @include max-screen(429px){
           font-size: 13px;

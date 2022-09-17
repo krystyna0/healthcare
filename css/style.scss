@@ -883,8 +883,8 @@ body {
           @include max-screen(415px) {
             left: 183px;
           }
-          @include max-screen(391px) {
-            left: 171px;
+          @include max-screen(394px) {
+            left: 177px;
           }
           @include max-screen(376px) {
             left: 163px;
@@ -948,6 +948,9 @@ body {
           }
           @include max-screen(415px) {
             left: 183px;
+          }
+          @include max-screen(394px) {
+            left: 177px;
           }
           @include max-screen(391px) {
             left: 171px;
@@ -1021,6 +1024,9 @@ body {
           }
           @include max-screen(415px) {
             left: 183px;
+          }
+          @include max-screen(394px) {
+            left: 177px;
           }
           @include max-screen(391px) {
             left: 171px;

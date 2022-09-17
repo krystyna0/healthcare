@@ -944,9 +944,9 @@ body {
     left: 183px;
   }
 }
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 394px) {
   .steps .container .row .steps-item .steps-icon-1 {
-    left: 171px;
+    left: 177px;
   }
 }
 @media screen and (max-width: 376px) {
@@ -1045,6 +1045,11 @@ body {
 @media screen and (max-width: 415px) {
   .steps .container .row .steps-item .steps-icon-2 {
     left: 183px;
+  }
+}
+@media screen and (max-width: 394px) {
+  .steps .container .row .steps-item .steps-icon-2 {
+    left: 177px;
   }
 }
 @media screen and (max-width: 391px) {
@@ -1158,6 +1163,11 @@ body {
 @media screen and (max-width: 415px) {
   .steps .container .row .steps-item .steps-icon-3 {
     left: 183px;
+  }
+}
+@media screen and (max-width: 394px) {
+  .steps .container .row .steps-item .steps-icon-3 {
+    left: 177px;
   }
 }
 @media screen and (max-width: 391px) {
